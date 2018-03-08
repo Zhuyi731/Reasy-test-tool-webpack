@@ -1,0 +1,36 @@
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:        return $("#slideH").height();
+line:3
+character:16
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:Empty block.
+code:empty_block
+evidence:    resizeSection: function() {
+line:6
+character:31
+a:{
+b:undefined
+c:undefined
+d:undefined
+reason:Empty block.
+id:(error)
+raw:Expected '{a}' and instead saw '{b}'.
+code:expected_a_b
+evidence:        if (!func) return;
+line:11
+character:20
+a:{
+b:return
+c:undefined
+d:undefined
+reason:Expected '{' and instead saw 'return'.
+reason:Stopping. (8% scanned).
+line:11
+character:20

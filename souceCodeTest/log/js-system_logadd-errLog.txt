@@ -1,0 +1,245 @@
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:$(function () {
+line:7
+character:1
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:            initHeadTail(12, "logsetting");
+line:10
+character:13
+a:initHeadTail
+b:undefined
+c:undefined
+d:undefined
+reason:'initHeadTail' was used before it was defined.
+id:(error)
+raw:Combine this with the previous 'var' statement.
+code:combine_var
+evidence:                    var itm = reqStr.split("~")[idx[1]],
+line:23
+character:25
+a:itm
+b:undefined
+c:undefined
+d:undefined
+reason:Combine this with the previous 'var' statement.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:                    var itm = reqStr.split("~")[idx[1]],
+line:23
+character:31
+a:reqStr
+b:undefined
+c:undefined
+d:undefined
+reason:'reqStr' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:                    $("[name=isenable][value='" + (em[2] == "1" ? true : false) + "']")[0].checked = true;
+line:31
+character:21
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:            $("#btnsubmit").removeAttr('onclick');
+line:42
+character:13
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:            $("#btnsubmit").on('click', logadd.preSubmit);
+line:43
+character:13
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:                items = reqStr.split("~");
+line:49
+character:25
+a:reqStr
+b:undefined
+c:undefined
+d:undefined
+reason:'reqStr' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:                alert(_("Please enter an IP address."));
+line:52
+character:17
+a:alert
+b:undefined
+c:undefined
+d:undefined
+reason:'alert' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:                alert(_("Please enter an IP address."));
+line:52
+character:23
+a:_
+b:undefined
+c:undefined
+d:undefined
+reason:'_' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:                alert(_("Please enter a port number."));
+line:56
+character:17
+a:alert
+b:undefined
+c:undefined
+d:undefined
+reason:'alert' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:                alert(_("Please enter a port number."));
+line:56
+character:23
+a:_
+b:undefined
+c:undefined
+d:undefined
+reason:'_' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:            if (!checkIp(f.innerIP, _("Log Server IP Address"))) {
+line:59
+character:18
+a:checkIp
+b:undefined
+c:undefined
+d:undefined
+reason:'checkIp' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:            if (!checkIp(f.innerIP, _("Log Server IP Address"))) {
+line:59
+character:37
+a:_
+b:undefined
+c:undefined
+d:undefined
+reason:'_' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:            f.innerIP.value = clearInvalidIpstr(f.innerIP.value);
+line:62
+character:31
+a:clearInvalidIpstr
+b:undefined
+c:undefined
+d:undefined
+reason:'clearInvalidIpstr' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:                alert(_("Please specify a valid port number from 1 through 65535."));
+line:65
+character:17
+a:alert
+b:undefined
+c:undefined
+d:undefined
+reason:'alert' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:                alert(_("Please specify a valid port number from 1 through 65535."));
+line:65
+character:23
+a:_
+b:undefined
+c:undefined
+d:undefined
+reason:'_' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:            if (f.innerIP.value == lanip) {
+line:68
+character:36
+a:lanip
+b:undefined
+c:undefined
+d:undefined
+reason:'lanip' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:                alert(_("The log server IP address cannot be the same as the default gateway IP address."));
+line:69
+character:17
+a:alert
+b:undefined
+c:undefined
+d:undefined
+reason:'alert' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:                alert(_("The log server IP address cannot be the same as the default gateway IP address."));
+line:69
+character:23
+a:_
+b:undefined
+c:undefined
+d:undefined
+reason:'_' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:            loc = f.innerIP.value + ";" + f.port.value + ";" + ($("[name=isenable]")[0].checked ? "1" : "0");
+line:73
+character:65
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:Move 'var' declarations to the top of the function.
+code:move_var
+evidence:            for (var i = 0; i < items.length; i++) {
+line:74
+character:18
+a:var
+b:undefined
+c:undefined
+d:undefined
+reason:Move 'var' declarations to the top of the function.
+reason:Stopping. (65% scanned).
+line:74
+character:18

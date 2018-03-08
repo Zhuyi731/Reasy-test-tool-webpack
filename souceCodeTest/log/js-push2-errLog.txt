@@ -1,0 +1,58 @@
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:    var slider = new Slider({
+line:2
+character:22
+a:Slider
+b:undefined
+c:undefined
+d:undefined
+reason:'Slider' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:        length: $('#slider .play-item').length
+line:4
+character:17
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:        $('#slider').parent().html('图片加载失败!').css({
+line:7
+character:9
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:    $('.switch input').on('click', function() {
+line:13
+character:5
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:Expected '{a}' and instead saw '{b}'.
+code:expected_a_b
+evidence:        if (this.checked) slider.setSpeed(5000);
+line:14
+character:27
+a:{
+b:slider
+c:undefined
+d:undefined
+reason:Expected '{' and instead saw 'slider'.
+reason:Stopping. (35% scanned).
+line:14
+character:27

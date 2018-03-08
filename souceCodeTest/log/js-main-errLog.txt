@@ -1,0 +1,553 @@
+id:(error)
+raw:Unnecessary 'else' after disruption.
+code:unnecessary_else
+evidence:	} else if (typeof window.innerWidth != 'number') {
+line:19
+character:4
+a:else
+b:undefined
+c:undefined
+d:undefined
+reason:Unnecessary 'else' after disruption.
+id:(error)
+raw:Unnecessary 'else' after disruption.
+code:unnecessary_else
+evidence:		} else {
+line:25
+character:5
+a:else
+b:undefined
+c:undefined
+d:undefined
+reason:Unnecessary 'else' after disruption.
+id:(error)
+raw:Use the || operator.
+code:use_or
+evidence:	GLOBAL.my_url = url ? url : '';
+line:36
+character:22
+a:?
+b:undefined
+c:undefined
+d:undefined
+reason:Use the || operator.
+id:(error)
+raw:Use the || operator.
+code:use_or
+evidence:	GLOBAL.my_time = time ? time : 300;
+line:37
+character:24
+a:?
+b:undefined
+c:undefined
+d:undefined
+reason:Use the || operator.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:	$('body').append('<div id="loading_div" >' +
+line:40
+character:2
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:		'<br />' + _("Upgrading... Please do not power off the device.") + '<span id="upgrade_text"></span></div>' +
+line:42
+character:14
+a:_
+b:undefined
+c:undefined
+d:undefined
+reason:'_' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:		(restore == "restore" ? _('Restoring factory settings... Please wait.') : _('Rebooting... Please wait.')) +
+line:44
+character:27
+a:_
+b:undefined
+c:undefined
+d:undefined
+reason:'_' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:		(restore == "restore" ? _('Restoring factory settings... Please wait.') : _('Rebooting... Please wait.')) +
+line:44
+character:77
+a:_
+b:undefined
+c:undefined
+d:undefined
+reason:'_' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:	$('body').append('<div id="gbx_overlay"></div>');
+line:46
+character:2
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:	var this_obj = $('#loading_div');
+line:47
+character:17
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:Combine this with the previous 'var' statement.
+code:combine_var
+evidence:	var left = (GLOBAL.pageSize.pageWidth - this_obj.width()) / 2;
+line:48
+character:6
+a:left
+b:undefined
+c:undefined
+d:undefined
+reason:Combine this with the previous 'var' statement.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:		upgrading();
+line:56
+character:3
+a:upgrading
+b:undefined
+c:undefined
+d:undefined
+reason:'upgrading' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:		$('#upgrade').hide();
+line:58
+character:3
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:		loadding();
+line:60
+character:3
+a:loadding
+b:undefined
+c:undefined
+d:undefined
+reason:'loadding' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:		loadding();
+line:69
+character:3
+a:loadding
+b:undefined
+c:undefined
+d:undefined
+reason:'loadding' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:	$(".upgrade_pc").css('width', GLOBAL.pc + "%");
+line:72
+character:2
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:	$("#upgrade_text").html(GLOBAL.pc + "%");
+line:73
+character:2
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:Implied eval is evil. Pass a function instead of a string.
+code:implied_evil
+evidence:	GLOBAL.time = setTimeout("upgrading()", 550); //上传文件时间550*100/1000=55s
+line:74
+character:16
+a:setTimeout
+b:undefined
+c:undefined
+d:undefined
+reason:Implied eval is evil. Pass a function instead of a string.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:		$("#gbx_overlay,#loading_div").remove();
+line:89
+character:3
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:	$(".reboot_pc").css('width', GLOBAL.pc + "%");
+line:93
+character:2
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:	$("#reboot_text").html(GLOBAL.pc + "%");
+line:94
+character:2
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:Implied eval is evil. Pass a function instead of a string.
+code:implied_evil
+evidence:	GLOBAL.time = setTimeout("loadding()", GLOBAL.my_time);
+line:95
+character:16
+a:setTimeout
+b:undefined
+c:undefined
+d:undefined
+reason:Implied eval is evil. Pass a function instead of a string.
+id:(error)
+raw:Combine this with the previous 'var' statement.
+code:combine_var
+evidence:	var that = this;
+line:106
+character:6
+a:that
+b:undefined
+c:undefined
+d:undefined
+reason:Combine this with the previous 'var' statement.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:		menuObj = menuMod;
+line:119
+character:13
+a:menuMod
+b:undefined
+c:undefined
+d:undefined
+reason:'menuMod' was used before it was defined.
+id:(error)
+raw:['{a}'] is better written in dot notation.
+code:subscript
+evidence:				id = menuObj[prop][i]["id"];
+line:131
+character:27
+a:id
+b:undefined
+c:undefined
+d:undefined
+reason:['id'] is better written in dot notation.
+id:(error)
+raw:['{a}'] is better written in dot notation.
+code:subscript
+evidence:				url = menuObj[prop][i]["url"];
+line:132
+character:28
+a:url
+b:undefined
+c:undefined
+d:undefined
+reason:['url'] is better written in dot notation.
+id:(error)
+raw:['{a}'] is better written in dot notation.
+code:subscript
+evidence:				name = menuObj[prop][i]["name"];
+line:133
+character:29
+a:name
+b:undefined
+c:undefined
+d:undefined
+reason:['name'] is better written in dot notation.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:				hasModule = menuObj[prop][i]["hasModule"];
+line:134
+character:5
+a:hasModule
+b:undefined
+c:undefined
+d:undefined
+reason:'hasModule' was used before it was defined.
+id:(error)
+raw:['{a}'] is better written in dot notation.
+code:subscript
+evidence:				hasModule = menuObj[prop][i]["hasModule"];
+line:134
+character:34
+a:hasModule
+b:undefined
+c:undefined
+d:undefined
+reason:['hasModule'] is better written in dot notation.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:				if (hasModule && hasModule == "n") {
+line:137
+character:9
+a:hasModule
+b:undefined
+c:undefined
+d:undefined
+reason:'hasModule' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:				if (hasModule && hasModule == "n") {
+line:137
+character:22
+a:hasModule
+b:undefined
+c:undefined
+d:undefined
+reason:'hasModule' was used before it was defined.
+id:(error)
+raw:Unexpected '{a}'.
+code:unexpected_a
+evidence:					continue;
+line:138
+character:6
+a:continue
+b:undefined
+c:undefined
+d:undefined
+reason:Unexpected 'continue'.
+id:(error)
+raw:Unexpected '{a}'.
+code:unexpected_a
+evidence:					continue;
+line:142
+character:6
+a:continue
+b:undefined
+c:undefined
+d:undefined
+reason:Unexpected 'continue'.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:			$("#" + prop).append(str);
+line:154
+character:4
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:		$("#sub_menu").find("a").eq(0).click();
+line:156
+character:3
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:		var $parent = $(this).parent(),
+line:159
+character:17
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:			id = $(this).attr("id"),
+line:160
+character:9
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:			url = $(this).attr("href");
+line:161
+character:10
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:Combine this with the previous 'var' statement.
+code:combine_var
+evidence:		var location = $("#" + id).attr("href");
+line:165
+character:7
+a:location
+b:undefined
+c:undefined
+d:undefined
+reason:Combine this with the previous 'var' statement.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:		var location = $("#" + id).attr("href");
+line:165
+character:18
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:Combine this with the previous 'var' statement.
+code:combine_var
+evidence:		var locArry = $("#" + id).attr("href").split("/");
+line:166
+character:7
+a:locArry
+b:undefined
+c:undefined
+d:undefined
+reason:Combine this with the previous 'var' statement.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:		var locArry = $("#" + id).attr("href").split("/");
+line:166
+character:17
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:Combine this with the previous 'var' statement.
+code:combine_var
+evidence:		var tagetId = locArry[locArry.length - 1].split(".")[0];
+line:167
+character:7
+a:tagetId
+b:undefined
+c:undefined
+d:undefined
+reason:Combine this with the previous 'var' statement.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:		$("#iframe-set").attr("src", location);
+line:169
+character:3
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:		$(".active").removeClass("active");
+line:170
+character:3
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:			top.RADIO = "5G";
+line:172
+character:4
+a:top
+b:undefined
+c:undefined
+d:undefined
+reason:'top' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:			top.RADIO = "2.4G";
+line:174
+character:4
+a:top
+b:undefined
+c:undefined
+d:undefined
+reason:'top' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:			$(".menu-active").removeClass("menu-active"); //
+line:177
+character:4
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:			if ($(this).children().eq(0).hasClass("icon-menu")) { //点击展开
+line:178
+character:8
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:				if ($(".nav-list").find(".icon-menu-open").length === 0) { //没有展开的菜单时
+line:181
+character:9
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+reason:Too many errors. (56% scanned).
+line:181
+character:9

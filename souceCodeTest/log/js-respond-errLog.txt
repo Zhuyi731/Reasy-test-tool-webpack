@@ -1,0 +1,58 @@
+id:(error)
+raw:Line too long.
+code:too_long
+evidence:window.matchMedia=window.matchMedia||function(a){"use strict";var c,d=a.documentElement,e=d.firstElementChild||d.firstChild,f=a.createElement("body"),g=a.createElement("div");return g.id="mq-test-1",g.style.cssText="position:absolute;top:-100em",f.style.background="none",f.appendChild(g),function(a){return g.innerHTML='&shy;<style media="'+a+'"> #mq-test-1 { width: 42px; }</style>',d.insertBefore(f,e),c=42===g.offsetWidth,d.removeChild(f),{matches:c,media:a}}}(document);
+line:3
+character:475
+a:(begin)
+b:undefined
+c:undefined
+d:undefined
+reason:Line too long.
+id:(error)
+raw:Unexpected assignment expression.
+code:assignment_expression
+evidence:window.matchMedia=window.matchMedia||function(a){"use strict";var c,d=a.documentElement,e=d.firstElementChild||d.firstChild,f=a.createElement("body"),g=a.createElement("div");return g.id="mq-test-1",g.style.cssText="position:absolute;top:-100em",f.style.background="none",f.appendChild(g),function(a){return g.innerHTML='&shy;<style media="'+a+'"> #mq-test-1 { width: 42px; }</style>',d.insertBefore(f,e),c=42===g.offsetWidth,d.removeChild(f),{matches:c,media:a}}}(document);
+line:3
+character:187
+a:=
+b:undefined
+c:undefined
+d:undefined
+reason:Unexpected assignment expression.
+id:(error)
+raw:Expected '{a}' and instead saw '{b}'.
+code:expected_a_b
+evidence:window.matchMedia=window.matchMedia||function(a){"use strict";var c,d=a.documentElement,e=d.firstElementChild||d.firstChild,f=a.createElement("body"),g=a.createElement("div");return g.id="mq-test-1",g.style.cssText="position:absolute;top:-100em",f.style.background="none",f.appendChild(g),function(a){return g.innerHTML='&shy;<style media="'+a+'"> #mq-test-1 { width: 42px; }</style>',d.insertBefore(f,e),c=42===g.offsetWidth,d.removeChild(f),{matches:c,media:a}}}(document);
+line:3
+character:199
+a:;
+b:,
+c:undefined
+d:undefined
+reason:Expected ';' and instead saw ','.
+id:(error)
+raw:Unreachable '{a}' after '{b}'.
+code:unreachable_a_b
+evidence:window.matchMedia=window.matchMedia||function(a){"use strict";var c,d=a.documentElement,e=d.firstElementChild||d.firstChild,f=a.createElement("body"),g=a.createElement("div");return g.id="mq-test-1",g.style.cssText="position:absolute;top:-100em",f.style.background="none",f.appendChild(g),function(a){return g.innerHTML='&shy;<style media="'+a+'"> #mq-test-1 { width: 42px; }</style>',d.insertBefore(f,e),c=42===g.offsetWidth,d.removeChild(f),{matches:c,media:a}}}(document);
+line:3
+character:199
+a:,
+b:return
+c:undefined
+d:undefined
+reason:Unreachable ',' after 'return'.
+id:(error)
+raw:Unexpected '{a}'.
+code:unexpected_a
+evidence:window.matchMedia=window.matchMedia||function(a){"use strict";var c,d=a.documentElement,e=d.firstElementChild||d.firstChild,f=a.createElement("body"),g=a.createElement("div");return g.id="mq-test-1",g.style.cssText="position:absolute;top:-100em",f.style.background="none",f.appendChild(g),function(a){return g.innerHTML='&shy;<style media="'+a+'"> #mq-test-1 { width: 42px; }</style>',d.insertBefore(f,e),c=42===g.offsetWidth,d.removeChild(f),{matches:c,media:a}}}(document);
+line:3
+character:199
+a:,
+b:undefined
+c:undefined
+d:undefined
+reason:Unexpected ','.
+reason:Stopping. (42% scanned).
+line:3
+character:200

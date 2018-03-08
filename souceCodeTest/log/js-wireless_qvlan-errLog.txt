@@ -1,0 +1,157 @@
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:var maxSsidNum = +top.CONFIG_2_4G_MAX_SSID_NUMBER,
+line:1
+character:19
+a:top
+b:undefined
+c:undefined
+d:undefined
+reason:'top' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:	maxSsidNum_5g = +top.CONFIG_5G_MAX_SSID_NUMBER,
+line:2
+character:19
+a:top
+b:undefined
+c:undefined
+d:undefined
+reason:'top' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:	$("#head").html(tbl_head(22));
+line:7
+character:2
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:	$("#head").html(tbl_head(22));
+line:7
+character:18
+a:tbl_head
+b:undefined
+c:undefined
+d:undefined
+reason:'tbl_head' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:	$("#tail").html(tbl_tail("wl_qvlan"));
+line:8
+character:2
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:	$("#tail").html(tbl_tail("wl_qvlan"));
+line:8
+character:18
+a:tbl_tail
+b:undefined
+c:undefined
+d:undefined
+reason:'tbl_tail' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:	$.GetSetData.getJson("goform/getWrlQvlanInfo", initValue);
+line:12
+character:2
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:	$.GetSetData.getJson("goform/getWrlQvlanInfo", initValue);
+line:12
+character:49
+a:initValue
+b:undefined
+c:undefined
+d:undefined
+reason:'initValue' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:	$("#qvlan_set").html(qvlanStr);
+line:26
+character:2
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:	$("#qvlan_set_5g").html(qvlanStr);
+line:35
+character:2
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:		$("#qvlan_set_5g").parent().css("display", "none");
+line:38
+character:3
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:		$("#qvlan_set_5g").parent().css("display", "");
+line:40
+character:3
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:Combine this with the previous 'var' statement.
+code:combine_var
+evidence:	var trunk_str = "",
+line:43
+character:6
+a:trunk_str
+b:undefined
+c:undefined
+d:undefined
+reason:Combine this with the previous 'var' statement.
+id:(error)
+raw:Move 'var' declarations to the top of the function.
+code:move_var
+evidence:	for (var i = 0; i < top.CONFIG_MAX_LAN_PORT_NUMBER; i++) {
+line:47
+character:7
+a:var
+b:undefined
+c:undefined
+d:undefined
+reason:Move 'var' declarations to the top of the function.
+reason:Stopping. (18% scanned).
+line:47
+character:7

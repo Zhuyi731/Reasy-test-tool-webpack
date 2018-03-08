@@ -1,0 +1,179 @@
+id:(error)
+raw:Unsafe character.
+code:unsafe
+evidence:	var refreshTimer; //��ʱˢ��
+line:2
+character:21
+a:{
+b:undefined
+c:undefined
+d:undefined
+reason:Unsafe character.
+id:(error)
+raw:Unsafe character.
+code:unsafe
+evidence:	var dhcpClientsTab; //��������
+line:3
+character:23
+a:;
+b:undefined
+c:undefined
+d:undefined
+reason:Unsafe character.
+id:(error)
+raw:Combine this with the previous 'var' statement.
+code:combine_var
+evidence:	var dhcpClientsTab; //��������
+line:3
+character:6
+a:dhcpClientsTab
+b:undefined
+c:undefined
+d:undefined
+reason:Combine this with the previous 'var' statement.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:		$("#head").html(tbl_head(23));
+line:6
+character:3
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:		$("#head").html(tbl_head(23));
+line:6
+character:19
+a:tbl_head
+b:undefined
+c:undefined
+d:undefined
+reason:'tbl_head' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:		$("#refresh").on("click", getValue);
+line:10
+character:3
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:		$("#refresh").on("click", getValue);
+line:10
+character:29
+a:getValue
+b:undefined
+c:undefined
+d:undefined
+reason:'getValue' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:		$.GetSetData.getJson("goform/getDhcpList", initValue);
+line:14
+character:3
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:		$.GetSetData.getJson("goform/getDhcpList", initValue);
+line:14
+character:46
+a:initValue
+b:undefined
+c:undefined
+d:undefined
+reason:'initValue' was used before it was defined.
+id:(error)
+raw:Unsafe character.
+code:unsafe
+evidence:		//�����ݽ���Ԥ����
+line:24
+character:4
+a:;
+b:undefined
+c:undefined
+d:undefined
+reason:Unsafe character.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:		dhcpClientsTab.data = transDatalist(obj.dhcpList);
+line:25
+character:25
+a:transDatalist
+b:undefined
+c:undefined
+d:undefined
+reason:'transDatalist' was used before it was defined.
+id:(error)
+raw:Unsafe character.
+code:unsafe
+evidence:		//�б����ݳ�ʼ��
+line:27
+character:4
+a:;
+b:undefined
+c:undefined
+d:undefined
+reason:Unsafe character.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:		top.mainLogic.reInitFrameHeight();
+line:29
+character:3
+a:top
+b:undefined
+c:undefined
+d:undefined
+reason:'top' was used before it was defined.
+id:(error)
+raw:Unsafe character.
+code:unsafe
+evidence:	//�Ի�ȡ���б����ݽ���Ԥ�������������ţ�������������������ʾ��ʱ��ת��
+line:32
+character:3
+a:}
+b:undefined
+c:undefined
+d:undefined
+reason:Unsafe character.
+id:(error)
+raw:Combine this with the previous 'var' statement.
+code:combine_var
+evidence:		var len = list.length;
+line:35
+character:7
+a:len
+b:undefined
+c:undefined
+d:undefined
+reason:Combine this with the previous 'var' statement.
+id:(error)
+raw:Move 'var' declarations to the top of the function.
+code:move_var
+evidence:		for (var i = 0; i < len; i++) {
+line:36
+character:8
+a:var
+b:undefined
+c:undefined
+d:undefined
+reason:Move 'var' declarations to the top of the function.
+reason:Stopping. (60% scanned).
+line:36
+character:8

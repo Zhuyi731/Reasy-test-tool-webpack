@@ -1,0 +1,58 @@
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:            $('#msgBox').show().find('.modal-body').text(str);
+line:29
+character:13
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:                $('#msgBox').addClass('in');
+line:31
+character:17
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:                        $('#msgBox').removeClass('in').hide();
+line:38
+character:25
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:                    $('#msgBox').removeClass('in').hide();
+line:43
+character:21
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:Expected '{a}' and instead saw '{b}'.
+code:expected_a_b
+evidence:            $('#msgBox').hide();
+line:47
+character:13
+a:{
+b:$
+c:undefined
+d:undefined
+reason:Expected '{' and instead saw '$'.
+reason:Stopping. (14% scanned).
+line:47
+character:13

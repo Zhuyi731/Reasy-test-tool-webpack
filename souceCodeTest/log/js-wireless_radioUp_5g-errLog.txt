@@ -1,0 +1,190 @@
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:$(function () {
+line:3
+character:1
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:Combine this with the previous 'var' statement.
+code:combine_var
+evidence:    var advance5g = {
+line:6
+character:9
+a:advance5g
+b:undefined
+c:undefined
+d:undefined
+reason:Combine this with the previous 'var' statement.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:            initHeadTail(9, "wl_advance");
+line:8
+character:13
+a:initHeadTail
+b:undefined
+c:undefined
+d:undefined
+reason:'initHeadTail' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:            $("#btnsubmit").removeAttr('onClick');
+line:9
+character:13
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:Empty block.
+code:empty_block
+evidence:        initHtml: function () {},
+line:15
+character:31
+a:{
+b:undefined
+c:undefined
+d:undefined
+reason:Empty block.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:            $.getJSON("/goform/getWrlRadioUpInfo?random=" + Math.random() + "&radio=" + top.RADIO, function (str) {
+line:18
+character:13
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:            $.getJSON("/goform/getWrlRadioUpInfo?random=" + Math.random() + "&radio=" + top.RADIO, function (str) {
+line:18
+character:89
+a:top
+b:undefined
+c:undefined
+d:undefined
+reason:'top' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:                top.GLOBAL.ssidEnCount = data.ssidEnCount;
+line:21
+character:17
+a:top
+b:undefined
+c:undefined
+d:undefined
+reason:'top' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:                inputValue(data);
+line:23
+character:17
+a:inputValue
+b:undefined
+c:undefined
+d:undefined
+reason:'inputValue' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:                if (+top.GLOBAL.ssidEnCount > 6) {
+line:24
+character:22
+a:top
+b:undefined
+c:undefined
+d:undefined
+reason:'top' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:                    $("#beaconInfo").html(_("ms (Range: 200 to 999; Default: 200)"));
+line:25
+character:21
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:                    $("#beaconInfo").html(_("ms (Range: 200 to 999; Default: 200)"));
+line:25
+character:43
+a:_
+b:undefined
+c:undefined
+d:undefined
+reason:'_' was used before it was defined.
+id:(error)
+raw:Combine this with the previous 'var' statement.
+code:combine_var
+evidence:                var spiteNodes = new Array();
+line:29
+character:21
+a:spiteNodes
+b:undefined
+c:undefined
+d:undefined
+reason:Combine this with the previous 'var' statement.
+id:(error)
+raw:Use the array literal notation [].
+code:use_array
+evidence:                var spiteNodes = new Array();
+line:29
+character:43
+a:(
+b:undefined
+c:undefined
+d:undefined
+reason:Use the array literal notation [].
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:                    $(".selectAllSpite").eq(1).attr("checked", "checked");
+line:33
+character:21
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:                    $(".selectAllSpite").eq(1).attr("flag", "1");
+line:34
+character:21
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:Move 'var' declarations to the top of the function.
+code:move_var
+evidence:                for (var j = 0; j < 8; j++) {
+line:37
+character:22
+a:var
+b:undefined
+c:undefined
+d:undefined
+reason:Move 'var' declarations to the top of the function.
+reason:Stopping. (16% scanned).
+line:37
+character:22

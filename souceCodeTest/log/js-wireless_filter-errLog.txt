@@ -1,0 +1,476 @@
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:	$("#head").html(tbl_head(8));
+line:4
+character:2
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:	$("#head").html(tbl_head(8));
+line:4
+character:18
+a:tbl_head
+b:undefined
+c:undefined
+d:undefined
+reason:'tbl_head' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:	$("#tail").html(tbl_tail("wl_filter"));
+line:5
+character:2
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:	$("#tail").html(tbl_tail("wl_filter"));
+line:5
+character:18
+a:tbl_tail
+b:undefined
+c:undefined
+d:undefined
+reason:'tbl_tail' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:	$("#filterMode").on("change", function () {
+line:9
+character:2
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:			$("#filterTab").addClass("none");
+line:11
+character:4
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:			$("#filterTab").removeClass("none");
+line:13
+character:4
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:		top.mainLogic.reInitFrameHeight();
+line:15
+character:3
+a:top
+b:undefined
+c:undefined
+d:undefined
+reason:'top' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:	$("#ssidIndex").on("change", function () {
+line:18
+character:2
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:		getValue(this.value);
+line:19
+character:3
+a:getValue
+b:undefined
+c:undefined
+d:undefined
+reason:'getValue' was used before it was defined.
+id:(error)
+raw:Expected '{a}' and instead saw '{b}'.
+code:expected_a_b
+evidence:	})
+line:20
+character:4
+a:;
+b:$
+c:undefined
+d:undefined
+reason:Expected ';' and instead saw '$'.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:	$("#add").on("click", addMac);
+line:22
+character:2
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:	$("#add").on("click", addMac);
+line:22
+character:24
+a:addMac
+b:undefined
+c:undefined
+d:undefined
+reason:'addMac' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:	$("input:text[name^=mac]").keyup(function (e) {
+line:24
+character:2
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:				if (f["mac" + (ind - 1)].createTextRange) {
+line:28
+character:9
+a:f
+b:undefined
+c:undefined
+d:undefined
+reason:'f' was used before it was defined.
+id:(error)
+raw:Combine this with the previous 'var' statement.
+code:combine_var
+evidence:					var range = f["mac" + (ind - 1)].createTextRange(),
+line:29
+character:10
+a:range
+b:undefined
+c:undefined
+d:undefined
+reason:Combine this with the previous 'var' statement.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:					var range = f["mac" + (ind - 1)].createTextRange(),
+line:29
+character:18
+a:f
+b:undefined
+c:undefined
+d:undefined
+reason:'f' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:						pos = f["mac" + (ind - 1)].value.length;
+line:30
+character:13
+a:f
+b:undefined
+c:undefined
+d:undefined
+reason:'f' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:					f["mac" + (ind - 1)].focus();
+line:36
+character:6
+a:f
+b:undefined
+c:undefined
+d:undefined
+reason:'f' was used before it was defined.
+id:(error)
+raw:Expected '{a}' and instead saw '{b}'.
+code:expected_a_b
+evidence:		this.value = this.value.replace(/[^0-9a-fA-F]/g, '')
+line:40
+character:55
+a:;
+b:if
+c:undefined
+d:undefined
+reason:Expected ';' and instead saw 'if'.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:			$(this).next("input").focus();
+line:42
+character:4
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:	$.GetSetData.getJson("goform/getWrlAccessList?radio=" + top.RADIO + "&ssidIndex=" + ssidIndex, initValue);
+line:49
+character:2
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:	$.GetSetData.getJson("goform/getWrlAccessList?radio=" + top.RADIO + "&ssidIndex=" + ssidIndex, initValue);
+line:49
+character:58
+a:top
+b:undefined
+c:undefined
+d:undefined
+reason:'top' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:	$.GetSetData.getJson("goform/getWrlAccessList?radio=" + top.RADIO + "&ssidIndex=" + ssidIndex, initValue);
+line:49
+character:97
+a:initValue
+b:undefined
+c:undefined
+d:undefined
+reason:'initValue' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:	$("#ssidIndex").html('');
+line:56
+character:2
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:		$("#ssidIndex").append(str);
+line:59
+character:3
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:		$("#ssidIndex option").eq(i).text(decodeSSID(ssidList[i]));
+line:60
+character:3
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:		$("#ssidIndex option").eq(i).text(decodeSSID(ssidList[i]));
+line:60
+character:37
+a:decodeSSID
+b:undefined
+c:undefined
+d:undefined
+reason:'decodeSSID' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:	$("#ssidIndex").val(ssidValue);
+line:63
+character:2
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:	$("#clientList").html('');
+line:71
+character:2
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:		str = "<tr><td colspan=5>" + _("No client connected.") + "</td></tr>";
+line:73
+character:32
+a:_
+b:undefined
+c:undefined
+d:undefined
+reason:'_' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:		$("#clientList").html(str);
+line:74
+character:3
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:			str += "<td>" + (clients[i].ip != "0.0.0.0" ? clients[i].ip : _("Unknown")) + "</td>";
+line:79
+character:66
+a:_
+b:undefined
+c:undefined
+d:undefined
+reason:'_' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:			str += "<td>" + timeStr(clients[i].connectTime) + "</td>";
+line:80
+character:20
+a:timeStr
+b:undefined
+c:undefined
+d:undefined
+reason:'timeStr' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:			str += "<td>" + '<input type="button" class="addMac button" value="' + _("Add") + '">' + "</td>";
+line:81
+character:75
+a:_
+b:undefined
+c:undefined
+d:undefined
+reason:'_' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:			$("#clientList").append(str);
+line:82
+character:4
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:		$("input.addMac").on("click", function () {
+line:85
+character:3
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:			if (f.filterMode.selectedIndex == 0) {
+line:87
+character:8
+a:f
+b:undefined
+c:undefined
+d:undefined
+reason:'f' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:				alert(_("Please select a filter mode."));
+line:88
+character:5
+a:alert
+b:undefined
+c:undefined
+d:undefined
+reason:'alert' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:				alert(_("Please select a filter mode."));
+line:88
+character:11
+a:_
+b:undefined
+c:undefined
+d:undefined
+reason:'_' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:			if (flist.length > 15) {
+line:91
+character:8
+a:flist
+b:undefined
+c:undefined
+d:undefined
+reason:'flist' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:				window.alert(_("Only a maximum of 16 MAC address entries are allowed."));
+line:92
+character:18
+a:_
+b:undefined
+c:undefined
+d:undefined
+reason:'_' was used before it was defined.
+id:(error)
+raw:Move 'var' declarations to the top of the function.
+code:move_var
+evidence:			for (var i = 0; i < flist.length; i++) {
+line:95
+character:9
+a:var
+b:undefined
+c:undefined
+d:undefined
+reason:Move 'var' declarations to the top of the function.
+reason:Stopping. (38% scanned).
+line:95
+character:9

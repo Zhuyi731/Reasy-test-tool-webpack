@@ -1,0 +1,341 @@
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:$(function () {
+line:8
+character:1
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:            initHeadTail(12, "logsetting");
+line:11
+character:13
+a:initHeadTail
+b:undefined
+c:undefined
+d:undefined
+reason:'initHeadTail' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:            f.check.checked = (ischeck == 1 ? true : false);
+line:18
+character:32
+a:ischeck
+b:undefined
+c:undefined
+d:undefined
+reason:'ischeck' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:            f.logsNum.value = logsNum;
+line:19
+character:31
+a:logsNum
+b:undefined
+c:undefined
+d:undefined
+reason:'logsNum' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:                t = $("#List")[0],
+line:24
+character:21
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:                itms = reqStr.split("~"),
+line:25
+character:24
+a:reqStr
+b:undefined
+c:undefined
+d:undefined
+reason:'reqStr' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:            if (reqStr == "") {
+line:28
+character:17
+a:reqStr
+b:undefined
+c:undefined
+d:undefined
+reason:'reqStr' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:                '<td width="50">' + _("ID") + '</td><td width ="180">' + _("Log Server IP Address") + '</td>' +
+line:35
+character:37
+a:_
+b:undefined
+c:undefined
+d:undefined
+reason:'_' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:                '<td width="50">' + _("ID") + '</td><td width ="180">' + _("Log Server IP Address") + '</td>' +
+line:35
+character:74
+a:_
+b:undefined
+c:undefined
+d:undefined
+reason:'_' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:                '<td width ="120">' + _("Log Server Port") + '</td><td width ="100">' + _("Status") + '</td><td>' + _("Operation") + '</td>' +
+line:36
+character:39
+a:_
+b:undefined
+c:undefined
+d:undefined
+reason:'_' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:                '<td width ="120">' + _("Log Server Port") + '</td><td width ="100">' + _("Status") + '</td><td>' + _("Operation") + '</td>' +
+line:36
+character:89
+a:_
+b:undefined
+c:undefined
+d:undefined
+reason:'_' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:                '<td width ="120">' + _("Log Server Port") + '</td><td width ="100">' + _("Status") + '</td><td>' + _("Operation") + '</td>' +
+line:36
+character:117
+a:_
+b:undefined
+c:undefined
+d:undefined
+reason:'_' was used before it was defined.
+id:(error)
+raw:Don't declare variables in a loop.
+code:var_loop
+evidence:                var cl = itms[i].split(";");
+line:39
+character:21
+a:cl
+b:undefined
+c:undefined
+d:undefined
+reason:Don't declare variables in a loop.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:                strtmp += '<td>' + (cl[2] == 0 ? _("Disable") : _("Enable")) + '</td>';
+line:44
+character:50
+a:_
+b:undefined
+c:undefined
+d:undefined
+reason:'_' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:                strtmp += '<td>' + (cl[2] == 0 ? _("Disable") : _("Enable")) + '</td>';
+line:44
+character:65
+a:_
+b:undefined
+c:undefined
+d:undefined
+reason:'_' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:                strtmp += '<td><input type="button" class="button" value="' + _("Edit") + '" onclick="logset.onEdit(' + i + ')">' +
+line:45
+character:79
+a:_
+b:undefined
+c:undefined
+d:undefined
+reason:'_' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:                    '<input type="button" class="button" value="' + _("Delete") + '" onclick="logset.onDel(' + i + ')"></td></tr>';
+line:46
+character:69
+a:_
+b:undefined
+c:undefined
+d:undefined
+reason:'_' was used before it was defined.
+id:(error)
+raw:Expected '{a}' and instead saw '{b}'.
+code:expected_a_b
+evidence:            strtmp += "</tbody></table>"
+line:48
+character:41
+a:;
+b:t
+c:undefined
+d:undefined
+reason:Expected ';' and instead saw 't'.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:            $("#addToList").on('click', function () {
+line:53
+character:13
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:                    alert(_("Only a maximum of 4 log servers are allowed."));
+line:55
+character:21
+a:alert
+b:undefined
+c:undefined
+d:undefined
+reason:'alert' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:                    alert(_("Only a maximum of 4 log servers are allowed."));
+line:55
+character:27
+a:_
+b:undefined
+c:undefined
+d:undefined
+reason:'_' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:            $("#btnsubmit").removeAttr('onclick');
+line:60
+character:13
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:            $("#btnsubmit").on('click', logset.preSubmit);
+line:61
+character:13
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:                alert(_("Incorrect number of logs."));
+line:66
+character:17
+a:alert
+b:undefined
+c:undefined
+d:undefined
+reason:'alert' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:                alert(_("Incorrect number of logs."));
+line:66
+character:23
+a:_
+b:undefined
+c:undefined
+d:undefined
+reason:'_' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:            f.entrys.value = reqStr;
+line:70
+character:30
+a:reqStr
+b:undefined
+c:undefined
+d:undefined
+reason:'reqStr' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:            if (permission()) {
+line:75
+character:17
+a:permission
+b:undefined
+c:undefined
+d:undefined
+reason:'permission' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:            if (window.confirm(_("Do you want to delete the rule?"))) {
+line:86
+character:32
+a:_
+b:undefined
+c:undefined
+d:undefined
+reason:'_' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:                var itms = reqStr.split("~");
+line:87
+character:28
+a:reqStr
+b:undefined
+c:undefined
+d:undefined
+reason:'reqStr' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:                reqStr = itms.join("~");
+line:90
+character:17
+a:reqStr
+b:undefined
+c:undefined
+d:undefined
+reason:'reqStr' was used before it was defined.
+id:(error)
+raw:Expected '{a}' and instead saw '{b}'.
+code:expected_a_b
+evidence:})
+line:100
+character:3
+a:;
+b:(end)
+c:undefined
+d:undefined
+reason:Expected ';' and instead saw '(end)'.

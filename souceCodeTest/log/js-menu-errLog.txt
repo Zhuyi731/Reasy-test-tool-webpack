@@ -1,0 +1,553 @@
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:var G_deviceName = top.productName || "";
+line:3
+character:20
+a:top
+b:undefined
+c:undefined
+d:undefined
+reason:'top' was used before it was defined.
+id:(error)
+raw:Use the array literal notation [].
+code:use_array
+evidence:var menu = new Array();
+line:5
+character:21
+a:(
+b:undefined
+c:undefined
+d:undefined
+reason:Use the array literal notation [].
+id:(error)
+raw:Use the array literal notation [].
+code:use_array
+evidence:menu[0] = new Array("System Status:status_system.asp");
+line:6
+character:20
+a:(
+b:undefined
+c:undefined
+d:undefined
+reason:Use the array literal notation [].
+id:(error)
+raw:Use the array literal notation [].
+code:use_array
+evidence:menu[1] = new Array("2.4 GHz Wireless Status:status_wireless.asp", "5 GHz Wireless Status:status_wireless_5g.asp");
+line:7
+character:20
+a:(
+b:undefined
+c:undefined
+d:undefined
+reason:Use the array literal notation [].
+id:(error)
+raw:Use the array literal notation [].
+code:use_array
+evidence:menu[2] = new Array("2.4 GHz Traffic Statistics:status_ap.asp", "5 GHz Traffic Statistics:status_ap_5g.asp");
+line:8
+character:20
+a:(
+b:undefined
+c:undefined
+d:undefined
+reason:Use the array literal notation [].
+id:(error)
+raw:Use the array literal notation [].
+code:use_array
+evidence:menu[3] = new Array("2.4 GHz Client List:status_wirelesslist.asp", "5 GHz Client List:status_wirelesslist_5g.asp");
+line:9
+character:20
+a:(
+b:undefined
+c:undefined
+d:undefined
+reason:Use the array literal notation [].
+id:(error)
+raw:Use the array literal notation [].
+code:use_array
+evidence:menu[4] = new Array("LAN Setup:lan.asp");
+line:10
+character:20
+a:(
+b:undefined
+c:undefined
+d:undefined
+reason:Use the array literal notation [].
+id:(error)
+raw:Use the array literal notation [].
+code:use_array
+evidence:menu[5] = new Array("Wireless Bridge:wireless_mode.asp");
+line:11
+character:20
+a:(
+b:undefined
+c:undefined
+d:undefined
+reason:Use the array literal notation [].
+id:(error)
+raw:Use the array literal notation [].
+code:use_array
+evidence:menu[6] = new Array("2.4 GHz SSID Settings:wireless_basic.asp", "5 GHz SSID Settings:wireless_basic_5g.asp");
+line:12
+character:20
+a:(
+b:undefined
+c:undefined
+d:undefined
+reason:Use the array literal notation [].
+id:(error)
+raw:Use the array literal notation [].
+code:use_array
+evidence:menu[7] = new Array("2.4 GHz Radio Settings:wireless_radio.asp", "5 GHz Radio Settings:wireless_radio_5g.asp");
+line:13
+character:20
+a:(
+b:undefined
+c:undefined
+d:undefined
+reason:Use the array literal notation [].
+id:(error)
+raw:Use the array literal notation [].
+code:use_array
+evidence:menu[8] = new Array("2.4 GHz Access Control:wireless_filter.asp", "5 GHz Access Control:wireless_filter_5g.asp");
+line:14
+character:20
+a:(
+b:undefined
+c:undefined
+d:undefined
+reason:Use the array literal notation [].
+id:(error)
+raw:Use the array literal notation [].
+code:use_array
+evidence:menu[9] = new Array("2.4 GHz Radio Optimization:wireless_radioUp.asp", "5 GHz Radio Optimization:wireless_radioUp_5g.asp");
+line:15
+character:20
+a:(
+b:undefined
+c:undefined
+d:undefined
+reason:Use the array literal notation [].
+id:(error)
+raw:Use the array literal notation [].
+code:use_array
+evidence:menu[10] = new Array("Firmware Upgrade:system_upgrade.asp");
+line:16
+character:21
+a:(
+b:undefined
+c:undefined
+d:undefined
+reason:Use the array literal notation [].
+id:(error)
+raw:Use the array literal notation [].
+code:use_array
+evidence:menu[11] = new Array("System Time:system_hostname.asp", "Login Timeout Interval:system_overtime.asp");
+line:17
+character:21
+a:(
+b:undefined
+c:undefined
+d:undefined
+reason:Use the array literal notation [].
+id:(error)
+raw:Use the array literal notation [].
+code:use_array
+evidence:menu[12] = new Array("Logs:system_log.asp", "Log Settings:log_setting.asp");
+line:18
+character:21
+a:(
+b:undefined
+c:undefined
+d:undefined
+reason:Use the array literal notation [].
+id:(error)
+raw:Use the array literal notation [].
+code:use_array
+evidence:menu[13] = new Array("Backup & Restore:system_backup.asp", "Reset:system_restore.asp");
+line:19
+character:21
+a:(
+b:undefined
+c:undefined
+d:undefined
+reason:Use the array literal notation [].
+id:(error)
+raw:Use the array literal notation [].
+code:use_array
+evidence:menu[14] = new Array("Account:system_password.asp");
+line:20
+character:21
+a:(
+b:undefined
+c:undefined
+d:undefined
+reason:Use the array literal notation [].
+id:(error)
+raw:Use the array literal notation [].
+code:use_array
+evidence:menu[15] = new Array("Diagnostics Tool:system_checktool.asp");
+line:21
+character:21
+a:(
+b:undefined
+c:undefined
+d:undefined
+reason:Use the array literal notation [].
+id:(error)
+raw:Use the array literal notation [].
+code:use_array
+evidence:menu[16] = new Array("SNMP:snmp.asp");
+line:22
+character:21
+a:(
+b:undefined
+c:undefined
+d:undefined
+reason:Use the array literal notation [].
+id:(error)
+raw:Use the array literal notation [].
+code:use_array
+evidence:menu[17] = new Array("System Update:system_rebooting.asp");
+line:23
+character:21
+a:(
+b:undefined
+c:undefined
+d:undefined
+reason:Use the array literal notation [].
+id:(error)
+raw:Use the array literal notation [].
+code:use_array
+evidence:menu[18] = new Array("Warning:error.asp");
+line:24
+character:21
+a:(
+b:undefined
+c:undefined
+d:undefined
+reason:Use the array literal notation [].
+id:(error)
+raw:Use the array literal notation [].
+code:use_array
+evidence:menu[19] = new Array("Quick Setup:wizard.asp");
+line:25
+character:21
+a:(
+b:undefined
+c:undefined
+d:undefined
+reason:Use the array literal notation [].
+id:(error)
+raw:Use the array literal notation [].
+code:use_array
+evidence:menu[20] = new Array("Help:#");
+line:26
+character:21
+a:(
+b:undefined
+c:undefined
+d:undefined
+reason:Use the array literal notation [].
+id:(error)
+raw:Use the array literal notation [].
+code:use_array
+evidence:menu[21] = new Array("2.4GHz WDS:wireless_wds.asp", "5GHz WDS:wireless_wds_5g.asp");
+line:27
+character:21
+a:(
+b:undefined
+c:undefined
+d:undefined
+reason:Use the array literal notation [].
+id:(error)
+raw:Use the array literal notation [].
+code:use_array
+evidence:menu[22] = new Array("QVLAN:wireless_qvlan.asp");
+line:28
+character:21
+a:(
+b:undefined
+c:undefined
+d:undefined
+reason:Use the array literal notation [].
+id:(error)
+raw:Use the array literal notation [].
+code:use_array
+evidence:menu[23] = new Array("DHCP Server:lan_dhcps.asp", "DHCP Clients:lan_dhcp_clients.asp");
+line:29
+character:21
+a:(
+b:undefined
+c:undefined
+d:undefined
+reason:Use the array literal notation [].
+id:(error)
+raw:Use the array literal notation [].
+code:use_array
+evidence:menu[24] = new Array("2.4GHz Signal Scan:wireless_channel.asp", "5GHz Signal Scan:wireless_channel_5g.asp");
+line:30
+character:21
+a:(
+b:undefined
+c:undefined
+d:undefined
+reason:Use the array literal notation [].
+id:(error)
+raw:Use the array literal notation [].
+code:use_array
+evidence:menu[25] = new Array("LED Control:system_led.asp");
+line:31
+character:21
+a:(
+b:undefined
+c:undefined
+d:undefined
+reason:Use the array literal notation [].
+id:(error)
+raw:Use the array literal notation [].
+code:use_array
+evidence:menu[26] = new Array("Manual Reboot:system_reboot.asp", "Reboot Schedule:timing_reboot.asp");
+line:32
+character:21
+a:(
+b:undefined
+c:undefined
+d:undefined
+reason:Use the array literal notation [].
+id:(error)
+raw:Use the array literal notation [].
+code:use_array
+evidence:menu[27] = new Array("无线抓包:wireless_packet.asp");
+line:33
+character:21
+a:(
+b:undefined
+c:undefined
+d:undefined
+reason:Use the array literal notation [].
+id:(error)
+raw:Use the array literal notation [].
+code:use_array
+evidence:menu[28] = new Array("Deployment:deploy.asp");
+line:34
+character:21
+a:(
+b:undefined
+c:undefined
+d:undefined
+reason:Use the array literal notation [].
+id:(error)
+raw:Use the array literal notation [].
+code:use_array
+evidence:menu[29] = new Array("Uplink Check:checkUpLink.asp");
+line:35
+character:21
+a:(
+b:undefined
+c:undefined
+d:undefined
+reason:Use the array literal notation [].
+id:(error)
+raw:Use the array literal notation [].
+code:use_array
+evidence:menu[31] = new Array("Traffic Control:qos_control.asp");
+line:36
+character:21
+a:(
+b:undefined
+c:undefined
+d:undefined
+reason:Use the array literal notation [].
+id:(error)
+raw:Use the array literal notation [].
+code:use_array
+evidence:menu[30] = new Array("2.4 GHz WMM:wmmSetting.asp", "5 GHz WMM:wmmSetting_5g.asp");
+line:37
+character:21
+a:(
+b:undefined
+c:undefined
+d:undefined
+reason:Use the array literal notation [].
+id:(error)
+raw:Use the array literal notation [].
+code:use_array
+evidence:menu[32] = new Array("Broadcast/Multicast Control:broadcast.asp");
+line:38
+character:21
+a:(
+b:undefined
+c:undefined
+d:undefined
+reason:Use the array literal notation [].
+id:(error)
+raw:Use the array literal notation [].
+code:use_array
+evidence:menu[33] = new Array("URL Filter:urlFilter.asp");
+line:39
+character:21
+a:(
+b:undefined
+c:undefined
+d:undefined
+reason:Use the array literal notation [].
+id:(error)
+raw:Use the array literal notation [].
+code:use_array
+evidence:menu[34] = new Array("App Filter:appFilter.asp");
+line:40
+character:21
+a:(
+b:undefined
+c:undefined
+d:undefined
+reason:Use the array literal notation [].
+id:(error)
+raw:Line too long.
+code:too_long
+evidence:menu[35] = new Array("2.4GHz Frequency Analysis:wireless_rate.asp", "5GHz Frequency Analysis:wireless_rate_5g.asp", "2.4GHz Rogue AP Detection:wireless_channel.asp", "5GHz Rogue AP Detection:wireless_channel_5g.asp");
+line:41
+character:217
+a:;
+b:undefined
+c:undefined
+d:undefined
+reason:Line too long.
+id:(error)
+raw:Use the array literal notation [].
+code:use_array
+evidence:menu[35] = new Array("2.4GHz Frequency Analysis:wireless_rate.asp", "5GHz Frequency Analysis:wireless_rate_5g.asp", "2.4GHz Rogue AP Detection:wireless_channel.asp", "5GHz Rogue AP Detection:wireless_channel_5g.asp");
+line:41
+character:21
+a:(
+b:undefined
+c:undefined
+d:undefined
+reason:Use the array literal notation [].
+id:(error)
+raw:Use the array literal notation [].
+code:use_array
+evidence:menu[36] = new Array("Advanced Settings:wireless_advance.asp");
+line:42
+character:21
+a:(
+b:undefined
+c:undefined
+d:undefined
+reason:Use the array literal notation [].
+id:(error)
+raw:Use the array literal notation [].
+code:use_array
+evidence:menu[37] = new Array("Virtual AC:vac_deploy.asp");
+line:43
+character:21
+a:(
+b:undefined
+c:undefined
+d:undefined
+reason:Use the array literal notation [].
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:if (top.max_ssid_5g_num == 0) {
+line:44
+character:5
+a:top
+b:undefined
+c:undefined
+d:undefined
+reason:'top' was used before it was defined.
+id:(error)
+raw:Use the array literal notation [].
+code:use_array
+evidence:	menu[1] = new Array("2.4GHz Wireless Status:status_wireless.asp");
+line:45
+character:21
+a:(
+b:undefined
+c:undefined
+d:undefined
+reason:Use the array literal notation [].
+id:(error)
+raw:Use the array literal notation [].
+code:use_array
+evidence:	menu[2] = new Array("2.4GHz Traffic Statistics:status_ap.asp");
+line:46
+character:21
+a:(
+b:undefined
+c:undefined
+d:undefined
+reason:Use the array literal notation [].
+id:(error)
+raw:Use the array literal notation [].
+code:use_array
+evidence:	menu[3] = new Array("2.4GHz Client List:status_wirelesslist.asp");
+line:47
+character:21
+a:(
+b:undefined
+c:undefined
+d:undefined
+reason:Use the array literal notation [].
+id:(error)
+raw:Use the array literal notation [].
+code:use_array
+evidence:	menu[6] = new Array("2.4GHz Basic:wireless_basic.asp");
+line:48
+character:21
+a:(
+b:undefined
+c:undefined
+d:undefined
+reason:Use the array literal notation [].
+id:(error)
+raw:Use the array literal notation [].
+code:use_array
+evidence:	menu[7] = new Array("2.4 GHz Radio Settings:wireless_radio.asp");
+line:49
+character:21
+a:(
+b:undefined
+c:undefined
+d:undefined
+reason:Use the array literal notation [].
+id:(error)
+raw:Use the array literal notation [].
+code:use_array
+evidence:	menu[8] = new Array("2.4GHz Access Control:wireless_filter.asp");
+line:50
+character:21
+a:(
+b:undefined
+c:undefined
+d:undefined
+reason:Use the array literal notation [].
+id:(error)
+raw:Use the array literal notation [].
+code:use_array
+evidence:	menu[9] = new Array("2.4GHz Advanced:wireless_advance.asp");
+line:51
+character:21
+a:(
+b:undefined
+c:undefined
+d:undefined
+reason:Use the array literal notation [].
+id:(error)
+raw:Use the array literal notation [].
+code:use_array
+evidence:	menu[21] = new Array("2.4GHz WDS:wireless_wds.asp");
+line:52
+character:22
+a:(
+b:undefined
+c:undefined
+d:undefined
+reason:Use the array literal notation [].
+reason:Too many errors. (50% scanned).
+line:52
+character:22

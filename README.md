@@ -1,2 +1,2 @@
-# Reasy-test-tool-webpack
-A test tool for webpack compiling
+# Reasy-testTool
+一个前端自动化测试工具

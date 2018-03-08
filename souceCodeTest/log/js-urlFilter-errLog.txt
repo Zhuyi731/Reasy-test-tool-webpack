@@ -1,0 +1,289 @@
+id:(error)
+raw:Use the array literal notation [].
+code:use_array
+evidence:    groupName: new Array, //组名
+line:3
+character:20
+a:Array
+b:undefined
+c:undefined
+d:undefined
+reason:Use the array literal notation [].
+id:(error)
+raw:Missing '{a}'.
+code:missing_a
+evidence:    groupName: new Array, //组名
+line:3
+character:25
+a:()
+b:undefined
+c:undefined
+d:undefined
+reason:Missing '()'.
+id:(error)
+raw:Use the array literal notation [].
+code:use_array
+evidence:    groupRefer: new Array, //引用数
+line:4
+character:21
+a:Array
+b:undefined
+c:undefined
+d:undefined
+reason:Use the array literal notation [].
+id:(error)
+raw:Missing '{a}'.
+code:missing_a
+evidence:    groupRefer: new Array, //引用数
+line:4
+character:26
+a:()
+b:undefined
+c:undefined
+d:undefined
+reason:Missing '()'.
+id:(error)
+raw:Expected '{a}' and instead saw '{b}'.
+code:expected_a_b
+evidence:}
+line:16
+character:2
+a:;
+b:var
+c:undefined
+d:undefined
+reason:Expected ';' and instead saw 'var'.
+id:(error)
+raw:Line too long.
+code:too_long
+evidence:    var str = "<li class='a3'><span style='margin-left: 10px;'>" + _("Website Group") + "</span><label>" + _("Operation") + "</label></li><li class='uGroup' tindex='1'><label style='float:left;width:140px;margin-right: 0px;cursor:pointer;' name='gNameSpan' title='"+_("Shopping")+"'><span style='margin-left: 10px;'>" + _("Shopping") + "</span></label><label><input type='checkbox' name='enable'>" + _("Enable") + "</label></li><li class='uGroup' tindex='2'><label name='gNameSpan' title='"+_("Group Buying")+"' style='float:left;width:140px;margin-right: 0px;cursor:pointer;'><span style='margin-left: 10px;'>" + _("Group Buying") + "</span></label><label><input type='checkbox' name='enable'>" + _("Enable") + "</label></li><li class='uGroup' tindex='3'><label name='gNameSpan' title='"+_("Video")+"' style='float:left;width:140px;margin-right: 0px;cursor:pointer;'><span  style='margin-left: 10px;'>" + _("Video") + "</span></label><label><input type='checkbox' name='enable'>" + _("Enable") + "</label></li><li class='uGroup' tindex='4'><label name='gNameSpan' title='"+_("Chat and Email")+"' style='float:left;width:140px;margin-right: 0px;cursor:pointer;'><span style='margin-left: 10px;'>" + _("Chat and Email") + "</span></label><label><input type='checkbox' name='enable'>" + _("Enable") + "</label></li><li class='uGroup' tindex='5'><label name='gNameSpan' title='"+_("Recruitment")+"' style='float:left;width:140px;margin-right: 0px;cursor:pointer;'><span style='margin-left: 10px;'>" + _("Recruitment") + "</span></label><label><input type='checkbox' name='enable'>" + _("Enable") + "</label></li>";
+line:21
+character:1611
+a:;
+b:undefined
+c:undefined
+d:undefined
+reason:Line too long.
+id:(error)
+raw:Combine this with the previous 'var' statement.
+code:combine_var
+evidence:    var str = "<li class='a3'><span style='margin-left: 10px;'>" + _("Website Group") + "</span><label>" + _("Operation") + "</label></li><li class='uGroup' tindex='1'><label style='float:left;width:140px;margin-right: 0px;cursor:pointer;' name='gNameSpan' title='"+_("Shopping")+"'><span style='margin-left: 10px;'>" + _("Shopping") + "</span></label><label><input type='checkbox' name='enable'>" + _("Enable") + "</label></li><li class='uGroup' tindex='2'><label name='gNameSpan' title='"+_("Group Buying")+"' style='float:left;width:140px;margin-right: 0px;cursor:pointer;'><span style='margin-left: 10px;'>" + _("Group Buying") + "</span></label><label><input type='checkbox' name='enable'>" + _("Enable") + "</label></li><li class='uGroup' tindex='3'><label name='gNameSpan' title='"+_("Video")+"' style='float:left;width:140px;margin-right: 0px;cursor:pointer;'><span  style='margin-left: 10px;'>" + _("Video") + "</span></label><label><input type='checkbox' name='enable'>" + _("Enable") + "</label></li><li class='uGroup' tindex='4'><label name='gNameSpan' title='"+_("Chat and Email")+"' style='float:left;width:140px;margin-right: 0px;cursor:pointer;'><span style='margin-left: 10px;'>" + _("Chat and Email") + "</span></label><label><input type='checkbox' name='enable'>" + _("Enable") + "</label></li><li class='uGroup' tindex='5'><label name='gNameSpan' title='"+_("Recruitment")+"' style='float:left;width:140px;margin-right: 0px;cursor:pointer;'><span style='margin-left: 10px;'>" + _("Recruitment") + "</span></label><label><input type='checkbox' name='enable'>" + _("Enable") + "</label></li>";
+line:21
+character:9
+a:str
+b:undefined
+c:undefined
+d:undefined
+reason:Combine this with the previous 'var' statement.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:    var str = "<li class='a3'><span style='margin-left: 10px;'>" + _("Website Group") + "</span><label>" + _("Operation") + "</label></li><li class='uGroup' tindex='1'><label style='float:left;width:140px;margin-right: 0px;cursor:pointer;' name='gNameSpan' title='"+_("Shopping")+"'><span style='margin-left: 10px;'>" + _("Shopping") + "</span></label><label><input type='checkbox' name='enable'>" + _("Enable") + "</label></li><li class='uGroup' tindex='2'><label name='gNameSpan' title='"+_("Group Buying")+"' style='float:left;width:140px;margin-right: 0px;cursor:pointer;'><span style='margin-left: 10px;'>" + _("Group Buying") + "</span></label><label><input type='checkbox' name='enable'>" + _("Enable") + "</label></li><li class='uGroup' tindex='3'><label name='gNameSpan' title='"+_("Video")+"' style='float:left;width:140px;margin-right: 0px;cursor:pointer;'><span  style='margin-left: 10px;'>" + _("Video") + "</span></label><label><input type='checkbox' name='enable'>" + _("Enable") + "</label></li><li class='uGroup' tindex='4'><label name='gNameSpan' title='"+_("Chat and Email")+"' style='float:left;width:140px;margin-right: 0px;cursor:pointer;'><span style='margin-left: 10px;'>" + _("Chat and Email") + "</span></label><label><input type='checkbox' name='enable'>" + _("Enable") + "</label></li><li class='uGroup' tindex='5'><label name='gNameSpan' title='"+_("Recruitment")+"' style='float:left;width:140px;margin-right: 0px;cursor:pointer;'><span style='margin-left: 10px;'>" + _("Recruitment") + "</span></label><label><input type='checkbox' name='enable'>" + _("Enable") + "</label></li>";
+line:21
+character:68
+a:_
+b:undefined
+c:undefined
+d:undefined
+reason:'_' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:    var str = "<li class='a3'><span style='margin-left: 10px;'>" + _("Website Group") + "</span><label>" + _("Operation") + "</label></li><li class='uGroup' tindex='1'><label style='float:left;width:140px;margin-right: 0px;cursor:pointer;' name='gNameSpan' title='"+_("Shopping")+"'><span style='margin-left: 10px;'>" + _("Shopping") + "</span></label><label><input type='checkbox' name='enable'>" + _("Enable") + "</label></li><li class='uGroup' tindex='2'><label name='gNameSpan' title='"+_("Group Buying")+"' style='float:left;width:140px;margin-right: 0px;cursor:pointer;'><span style='margin-left: 10px;'>" + _("Group Buying") + "</span></label><label><input type='checkbox' name='enable'>" + _("Enable") + "</label></li><li class='uGroup' tindex='3'><label name='gNameSpan' title='"+_("Video")+"' style='float:left;width:140px;margin-right: 0px;cursor:pointer;'><span  style='margin-left: 10px;'>" + _("Video") + "</span></label><label><input type='checkbox' name='enable'>" + _("Enable") + "</label></li><li class='uGroup' tindex='4'><label name='gNameSpan' title='"+_("Chat and Email")+"' style='float:left;width:140px;margin-right: 0px;cursor:pointer;'><span style='margin-left: 10px;'>" + _("Chat and Email") + "</span></label><label><input type='checkbox' name='enable'>" + _("Enable") + "</label></li><li class='uGroup' tindex='5'><label name='gNameSpan' title='"+_("Recruitment")+"' style='float:left;width:140px;margin-right: 0px;cursor:pointer;'><span style='margin-left: 10px;'>" + _("Recruitment") + "</span></label><label><input type='checkbox' name='enable'>" + _("Enable") + "</label></li>";
+line:21
+character:108
+a:_
+b:undefined
+c:undefined
+d:undefined
+reason:'_' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:    var str = "<li class='a3'><span style='margin-left: 10px;'>" + _("Website Group") + "</span><label>" + _("Operation") + "</label></li><li class='uGroup' tindex='1'><label style='float:left;width:140px;margin-right: 0px;cursor:pointer;' name='gNameSpan' title='"+_("Shopping")+"'><span style='margin-left: 10px;'>" + _("Shopping") + "</span></label><label><input type='checkbox' name='enable'>" + _("Enable") + "</label></li><li class='uGroup' tindex='2'><label name='gNameSpan' title='"+_("Group Buying")+"' style='float:left;width:140px;margin-right: 0px;cursor:pointer;'><span style='margin-left: 10px;'>" + _("Group Buying") + "</span></label><label><input type='checkbox' name='enable'>" + _("Enable") + "</label></li><li class='uGroup' tindex='3'><label name='gNameSpan' title='"+_("Video")+"' style='float:left;width:140px;margin-right: 0px;cursor:pointer;'><span  style='margin-left: 10px;'>" + _("Video") + "</span></label><label><input type='checkbox' name='enable'>" + _("Enable") + "</label></li><li class='uGroup' tindex='4'><label name='gNameSpan' title='"+_("Chat and Email")+"' style='float:left;width:140px;margin-right: 0px;cursor:pointer;'><span style='margin-left: 10px;'>" + _("Chat and Email") + "</span></label><label><input type='checkbox' name='enable'>" + _("Enable") + "</label></li><li class='uGroup' tindex='5'><label name='gNameSpan' title='"+_("Recruitment")+"' style='float:left;width:140px;margin-right: 0px;cursor:pointer;'><span style='margin-left: 10px;'>" + _("Recruitment") + "</span></label><label><input type='checkbox' name='enable'>" + _("Enable") + "</label></li>";
+line:21
+character:267
+a:_
+b:undefined
+c:undefined
+d:undefined
+reason:'_' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:    var str = "<li class='a3'><span style='margin-left: 10px;'>" + _("Website Group") + "</span><label>" + _("Operation") + "</label></li><li class='uGroup' tindex='1'><label style='float:left;width:140px;margin-right: 0px;cursor:pointer;' name='gNameSpan' title='"+_("Shopping")+"'><span style='margin-left: 10px;'>" + _("Shopping") + "</span></label><label><input type='checkbox' name='enable'>" + _("Enable") + "</label></li><li class='uGroup' tindex='2'><label name='gNameSpan' title='"+_("Group Buying")+"' style='float:left;width:140px;margin-right: 0px;cursor:pointer;'><span style='margin-left: 10px;'>" + _("Group Buying") + "</span></label><label><input type='checkbox' name='enable'>" + _("Enable") + "</label></li><li class='uGroup' tindex='3'><label name='gNameSpan' title='"+_("Video")+"' style='float:left;width:140px;margin-right: 0px;cursor:pointer;'><span  style='margin-left: 10px;'>" + _("Video") + "</span></label><label><input type='checkbox' name='enable'>" + _("Enable") + "</label></li><li class='uGroup' tindex='4'><label name='gNameSpan' title='"+_("Chat and Email")+"' style='float:left;width:140px;margin-right: 0px;cursor:pointer;'><span style='margin-left: 10px;'>" + _("Chat and Email") + "</span></label><label><input type='checkbox' name='enable'>" + _("Enable") + "</label></li><li class='uGroup' tindex='5'><label name='gNameSpan' title='"+_("Recruitment")+"' style='float:left;width:140px;margin-right: 0px;cursor:pointer;'><span style='margin-left: 10px;'>" + _("Recruitment") + "</span></label><label><input type='checkbox' name='enable'>" + _("Enable") + "</label></li>";
+line:21
+character:321
+a:_
+b:undefined
+c:undefined
+d:undefined
+reason:'_' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:    var str = "<li class='a3'><span style='margin-left: 10px;'>" + _("Website Group") + "</span><label>" + _("Operation") + "</label></li><li class='uGroup' tindex='1'><label style='float:left;width:140px;margin-right: 0px;cursor:pointer;' name='gNameSpan' title='"+_("Shopping")+"'><span style='margin-left: 10px;'>" + _("Shopping") + "</span></label><label><input type='checkbox' name='enable'>" + _("Enable") + "</label></li><li class='uGroup' tindex='2'><label name='gNameSpan' title='"+_("Group Buying")+"' style='float:left;width:140px;margin-right: 0px;cursor:pointer;'><span style='margin-left: 10px;'>" + _("Group Buying") + "</span></label><label><input type='checkbox' name='enable'>" + _("Enable") + "</label></li><li class='uGroup' tindex='3'><label name='gNameSpan' title='"+_("Video")+"' style='float:left;width:140px;margin-right: 0px;cursor:pointer;'><span  style='margin-left: 10px;'>" + _("Video") + "</span></label><label><input type='checkbox' name='enable'>" + _("Enable") + "</label></li><li class='uGroup' tindex='4'><label name='gNameSpan' title='"+_("Chat and Email")+"' style='float:left;width:140px;margin-right: 0px;cursor:pointer;'><span style='margin-left: 10px;'>" + _("Chat and Email") + "</span></label><label><input type='checkbox' name='enable'>" + _("Enable") + "</label></li><li class='uGroup' tindex='5'><label name='gNameSpan' title='"+_("Recruitment")+"' style='float:left;width:140px;margin-right: 0px;cursor:pointer;'><span style='margin-left: 10px;'>" + _("Recruitment") + "</span></label><label><input type='checkbox' name='enable'>" + _("Enable") + "</label></li>";
+line:21
+character:401
+a:_
+b:undefined
+c:undefined
+d:undefined
+reason:'_' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:    var str = "<li class='a3'><span style='margin-left: 10px;'>" + _("Website Group") + "</span><label>" + _("Operation") + "</label></li><li class='uGroup' tindex='1'><label style='float:left;width:140px;margin-right: 0px;cursor:pointer;' name='gNameSpan' title='"+_("Shopping")+"'><span style='margin-left: 10px;'>" + _("Shopping") + "</span></label><label><input type='checkbox' name='enable'>" + _("Enable") + "</label></li><li class='uGroup' tindex='2'><label name='gNameSpan' title='"+_("Group Buying")+"' style='float:left;width:140px;margin-right: 0px;cursor:pointer;'><span style='margin-left: 10px;'>" + _("Group Buying") + "</span></label><label><input type='checkbox' name='enable'>" + _("Enable") + "</label></li><li class='uGroup' tindex='3'><label name='gNameSpan' title='"+_("Video")+"' style='float:left;width:140px;margin-right: 0px;cursor:pointer;'><span  style='margin-left: 10px;'>" + _("Video") + "</span></label><label><input type='checkbox' name='enable'>" + _("Enable") + "</label></li><li class='uGroup' tindex='4'><label name='gNameSpan' title='"+_("Chat and Email")+"' style='float:left;width:140px;margin-right: 0px;cursor:pointer;'><span style='margin-left: 10px;'>" + _("Chat and Email") + "</span></label><label><input type='checkbox' name='enable'>" + _("Enable") + "</label></li><li class='uGroup' tindex='5'><label name='gNameSpan' title='"+_("Recruitment")+"' style='float:left;width:140px;margin-right: 0px;cursor:pointer;'><span style='margin-left: 10px;'>" + _("Recruitment") + "</span></label><label><input type='checkbox' name='enable'>" + _("Enable") + "</label></li>";
+line:21
+character:492
+a:_
+b:undefined
+c:undefined
+d:undefined
+reason:'_' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:    var str = "<li class='a3'><span style='margin-left: 10px;'>" + _("Website Group") + "</span><label>" + _("Operation") + "</label></li><li class='uGroup' tindex='1'><label style='float:left;width:140px;margin-right: 0px;cursor:pointer;' name='gNameSpan' title='"+_("Shopping")+"'><span style='margin-left: 10px;'>" + _("Shopping") + "</span></label><label><input type='checkbox' name='enable'>" + _("Enable") + "</label></li><li class='uGroup' tindex='2'><label name='gNameSpan' title='"+_("Group Buying")+"' style='float:left;width:140px;margin-right: 0px;cursor:pointer;'><span style='margin-left: 10px;'>" + _("Group Buying") + "</span></label><label><input type='checkbox' name='enable'>" + _("Enable") + "</label></li><li class='uGroup' tindex='3'><label name='gNameSpan' title='"+_("Video")+"' style='float:left;width:140px;margin-right: 0px;cursor:pointer;'><span  style='margin-left: 10px;'>" + _("Video") + "</span></label><label><input type='checkbox' name='enable'>" + _("Enable") + "</label></li><li class='uGroup' tindex='4'><label name='gNameSpan' title='"+_("Chat and Email")+"' style='float:left;width:140px;margin-right: 0px;cursor:pointer;'><span style='margin-left: 10px;'>" + _("Chat and Email") + "</span></label><label><input type='checkbox' name='enable'>" + _("Enable") + "</label></li><li class='uGroup' tindex='5'><label name='gNameSpan' title='"+_("Recruitment")+"' style='float:left;width:140px;margin-right: 0px;cursor:pointer;'><span style='margin-left: 10px;'>" + _("Recruitment") + "</span></label><label><input type='checkbox' name='enable'>" + _("Enable") + "</label></li>";
+line:21
+character:615
+a:_
+b:undefined
+c:undefined
+d:undefined
+reason:'_' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:    var str = "<li class='a3'><span style='margin-left: 10px;'>" + _("Website Group") + "</span><label>" + _("Operation") + "</label></li><li class='uGroup' tindex='1'><label style='float:left;width:140px;margin-right: 0px;cursor:pointer;' name='gNameSpan' title='"+_("Shopping")+"'><span style='margin-left: 10px;'>" + _("Shopping") + "</span></label><label><input type='checkbox' name='enable'>" + _("Enable") + "</label></li><li class='uGroup' tindex='2'><label name='gNameSpan' title='"+_("Group Buying")+"' style='float:left;width:140px;margin-right: 0px;cursor:pointer;'><span style='margin-left: 10px;'>" + _("Group Buying") + "</span></label><label><input type='checkbox' name='enable'>" + _("Enable") + "</label></li><li class='uGroup' tindex='3'><label name='gNameSpan' title='"+_("Video")+"' style='float:left;width:140px;margin-right: 0px;cursor:pointer;'><span  style='margin-left: 10px;'>" + _("Video") + "</span></label><label><input type='checkbox' name='enable'>" + _("Enable") + "</label></li><li class='uGroup' tindex='4'><label name='gNameSpan' title='"+_("Chat and Email")+"' style='float:left;width:140px;margin-right: 0px;cursor:pointer;'><span style='margin-left: 10px;'>" + _("Chat and Email") + "</span></label><label><input type='checkbox' name='enable'>" + _("Enable") + "</label></li><li class='uGroup' tindex='5'><label name='gNameSpan' title='"+_("Recruitment")+"' style='float:left;width:140px;margin-right: 0px;cursor:pointer;'><span style='margin-left: 10px;'>" + _("Recruitment") + "</span></label><label><input type='checkbox' name='enable'>" + _("Enable") + "</label></li>";
+line:21
+character:699
+a:_
+b:undefined
+c:undefined
+d:undefined
+reason:'_' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:    var str = "<li class='a3'><span style='margin-left: 10px;'>" + _("Website Group") + "</span><label>" + _("Operation") + "</label></li><li class='uGroup' tindex='1'><label style='float:left;width:140px;margin-right: 0px;cursor:pointer;' name='gNameSpan' title='"+_("Shopping")+"'><span style='margin-left: 10px;'>" + _("Shopping") + "</span></label><label><input type='checkbox' name='enable'>" + _("Enable") + "</label></li><li class='uGroup' tindex='2'><label name='gNameSpan' title='"+_("Group Buying")+"' style='float:left;width:140px;margin-right: 0px;cursor:pointer;'><span style='margin-left: 10px;'>" + _("Group Buying") + "</span></label><label><input type='checkbox' name='enable'>" + _("Enable") + "</label></li><li class='uGroup' tindex='3'><label name='gNameSpan' title='"+_("Video")+"' style='float:left;width:140px;margin-right: 0px;cursor:pointer;'><span  style='margin-left: 10px;'>" + _("Video") + "</span></label><label><input type='checkbox' name='enable'>" + _("Enable") + "</label></li><li class='uGroup' tindex='4'><label name='gNameSpan' title='"+_("Chat and Email")+"' style='float:left;width:140px;margin-right: 0px;cursor:pointer;'><span style='margin-left: 10px;'>" + _("Chat and Email") + "</span></label><label><input type='checkbox' name='enable'>" + _("Enable") + "</label></li><li class='uGroup' tindex='5'><label name='gNameSpan' title='"+_("Recruitment")+"' style='float:left;width:140px;margin-right: 0px;cursor:pointer;'><span style='margin-left: 10px;'>" + _("Recruitment") + "</span></label><label><input type='checkbox' name='enable'>" + _("Enable") + "</label></li>";
+line:21
+character:790
+a:_
+b:undefined
+c:undefined
+d:undefined
+reason:'_' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:    var str = "<li class='a3'><span style='margin-left: 10px;'>" + _("Website Group") + "</span><label>" + _("Operation") + "</label></li><li class='uGroup' tindex='1'><label style='float:left;width:140px;margin-right: 0px;cursor:pointer;' name='gNameSpan' title='"+_("Shopping")+"'><span style='margin-left: 10px;'>" + _("Shopping") + "</span></label><label><input type='checkbox' name='enable'>" + _("Enable") + "</label></li><li class='uGroup' tindex='2'><label name='gNameSpan' title='"+_("Group Buying")+"' style='float:left;width:140px;margin-right: 0px;cursor:pointer;'><span style='margin-left: 10px;'>" + _("Group Buying") + "</span></label><label><input type='checkbox' name='enable'>" + _("Enable") + "</label></li><li class='uGroup' tindex='3'><label name='gNameSpan' title='"+_("Video")+"' style='float:left;width:140px;margin-right: 0px;cursor:pointer;'><span  style='margin-left: 10px;'>" + _("Video") + "</span></label><label><input type='checkbox' name='enable'>" + _("Enable") + "</label></li><li class='uGroup' tindex='4'><label name='gNameSpan' title='"+_("Chat and Email")+"' style='float:left;width:140px;margin-right: 0px;cursor:pointer;'><span style='margin-left: 10px;'>" + _("Chat and Email") + "</span></label><label><input type='checkbox' name='enable'>" + _("Enable") + "</label></li><li class='uGroup' tindex='5'><label name='gNameSpan' title='"+_("Recruitment")+"' style='float:left;width:140px;margin-right: 0px;cursor:pointer;'><span style='margin-left: 10px;'>" + _("Recruitment") + "</span></label><label><input type='checkbox' name='enable'>" + _("Enable") + "</label></li>";
+line:21
+character:907
+a:_
+b:undefined
+c:undefined
+d:undefined
+reason:'_' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:    var str = "<li class='a3'><span style='margin-left: 10px;'>" + _("Website Group") + "</span><label>" + _("Operation") + "</label></li><li class='uGroup' tindex='1'><label style='float:left;width:140px;margin-right: 0px;cursor:pointer;' name='gNameSpan' title='"+_("Shopping")+"'><span style='margin-left: 10px;'>" + _("Shopping") + "</span></label><label><input type='checkbox' name='enable'>" + _("Enable") + "</label></li><li class='uGroup' tindex='2'><label name='gNameSpan' title='"+_("Group Buying")+"' style='float:left;width:140px;margin-right: 0px;cursor:pointer;'><span style='margin-left: 10px;'>" + _("Group Buying") + "</span></label><label><input type='checkbox' name='enable'>" + _("Enable") + "</label></li><li class='uGroup' tindex='3'><label name='gNameSpan' title='"+_("Video")+"' style='float:left;width:140px;margin-right: 0px;cursor:pointer;'><span  style='margin-left: 10px;'>" + _("Video") + "</span></label><label><input type='checkbox' name='enable'>" + _("Enable") + "</label></li><li class='uGroup' tindex='4'><label name='gNameSpan' title='"+_("Chat and Email")+"' style='float:left;width:140px;margin-right: 0px;cursor:pointer;'><span style='margin-left: 10px;'>" + _("Chat and Email") + "</span></label><label><input type='checkbox' name='enable'>" + _("Enable") + "</label></li><li class='uGroup' tindex='5'><label name='gNameSpan' title='"+_("Recruitment")+"' style='float:left;width:140px;margin-right: 0px;cursor:pointer;'><span style='margin-left: 10px;'>" + _("Recruitment") + "</span></label><label><input type='checkbox' name='enable'>" + _("Enable") + "</label></li>";
+line:21
+character:984
+a:_
+b:undefined
+c:undefined
+d:undefined
+reason:'_' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:    var str = "<li class='a3'><span style='margin-left: 10px;'>" + _("Website Group") + "</span><label>" + _("Operation") + "</label></li><li class='uGroup' tindex='1'><label style='float:left;width:140px;margin-right: 0px;cursor:pointer;' name='gNameSpan' title='"+_("Shopping")+"'><span style='margin-left: 10px;'>" + _("Shopping") + "</span></label><label><input type='checkbox' name='enable'>" + _("Enable") + "</label></li><li class='uGroup' tindex='2'><label name='gNameSpan' title='"+_("Group Buying")+"' style='float:left;width:140px;margin-right: 0px;cursor:pointer;'><span style='margin-left: 10px;'>" + _("Group Buying") + "</span></label><label><input type='checkbox' name='enable'>" + _("Enable") + "</label></li><li class='uGroup' tindex='3'><label name='gNameSpan' title='"+_("Video")+"' style='float:left;width:140px;margin-right: 0px;cursor:pointer;'><span  style='margin-left: 10px;'>" + _("Video") + "</span></label><label><input type='checkbox' name='enable'>" + _("Enable") + "</label></li><li class='uGroup' tindex='4'><label name='gNameSpan' title='"+_("Chat and Email")+"' style='float:left;width:140px;margin-right: 0px;cursor:pointer;'><span style='margin-left: 10px;'>" + _("Chat and Email") + "</span></label><label><input type='checkbox' name='enable'>" + _("Enable") + "</label></li><li class='uGroup' tindex='5'><label name='gNameSpan' title='"+_("Recruitment")+"' style='float:left;width:140px;margin-right: 0px;cursor:pointer;'><span style='margin-left: 10px;'>" + _("Recruitment") + "</span></label><label><input type='checkbox' name='enable'>" + _("Enable") + "</label></li>";
+line:21
+character:1075
+a:_
+b:undefined
+c:undefined
+d:undefined
+reason:'_' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:    var str = "<li class='a3'><span style='margin-left: 10px;'>" + _("Website Group") + "</span><label>" + _("Operation") + "</label></li><li class='uGroup' tindex='1'><label style='float:left;width:140px;margin-right: 0px;cursor:pointer;' name='gNameSpan' title='"+_("Shopping")+"'><span style='margin-left: 10px;'>" + _("Shopping") + "</span></label><label><input type='checkbox' name='enable'>" + _("Enable") + "</label></li><li class='uGroup' tindex='2'><label name='gNameSpan' title='"+_("Group Buying")+"' style='float:left;width:140px;margin-right: 0px;cursor:pointer;'><span style='margin-left: 10px;'>" + _("Group Buying") + "</span></label><label><input type='checkbox' name='enable'>" + _("Enable") + "</label></li><li class='uGroup' tindex='3'><label name='gNameSpan' title='"+_("Video")+"' style='float:left;width:140px;margin-right: 0px;cursor:pointer;'><span  style='margin-left: 10px;'>" + _("Video") + "</span></label><label><input type='checkbox' name='enable'>" + _("Enable") + "</label></li><li class='uGroup' tindex='4'><label name='gNameSpan' title='"+_("Chat and Email")+"' style='float:left;width:140px;margin-right: 0px;cursor:pointer;'><span style='margin-left: 10px;'>" + _("Chat and Email") + "</span></label><label><input type='checkbox' name='enable'>" + _("Enable") + "</label></li><li class='uGroup' tindex='5'><label name='gNameSpan' title='"+_("Recruitment")+"' style='float:left;width:140px;margin-right: 0px;cursor:pointer;'><span style='margin-left: 10px;'>" + _("Recruitment") + "</span></label><label><input type='checkbox' name='enable'>" + _("Enable") + "</label></li>";
+line:21
+character:1200
+a:_
+b:undefined
+c:undefined
+d:undefined
+reason:'_' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:    var str = "<li class='a3'><span style='margin-left: 10px;'>" + _("Website Group") + "</span><label>" + _("Operation") + "</label></li><li class='uGroup' tindex='1'><label style='float:left;width:140px;margin-right: 0px;cursor:pointer;' name='gNameSpan' title='"+_("Shopping")+"'><span style='margin-left: 10px;'>" + _("Shopping") + "</span></label><label><input type='checkbox' name='enable'>" + _("Enable") + "</label></li><li class='uGroup' tindex='2'><label name='gNameSpan' title='"+_("Group Buying")+"' style='float:left;width:140px;margin-right: 0px;cursor:pointer;'><span style='margin-left: 10px;'>" + _("Group Buying") + "</span></label><label><input type='checkbox' name='enable'>" + _("Enable") + "</label></li><li class='uGroup' tindex='3'><label name='gNameSpan' title='"+_("Video")+"' style='float:left;width:140px;margin-right: 0px;cursor:pointer;'><span  style='margin-left: 10px;'>" + _("Video") + "</span></label><label><input type='checkbox' name='enable'>" + _("Enable") + "</label></li><li class='uGroup' tindex='4'><label name='gNameSpan' title='"+_("Chat and Email")+"' style='float:left;width:140px;margin-right: 0px;cursor:pointer;'><span style='margin-left: 10px;'>" + _("Chat and Email") + "</span></label><label><input type='checkbox' name='enable'>" + _("Enable") + "</label></li><li class='uGroup' tindex='5'><label name='gNameSpan' title='"+_("Recruitment")+"' style='float:left;width:140px;margin-right: 0px;cursor:pointer;'><span style='margin-left: 10px;'>" + _("Recruitment") + "</span></label><label><input type='checkbox' name='enable'>" + _("Enable") + "</label></li>";
+line:21
+character:1286
+a:_
+b:undefined
+c:undefined
+d:undefined
+reason:'_' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:    var str = "<li class='a3'><span style='margin-left: 10px;'>" + _("Website Group") + "</span><label>" + _("Operation") + "</label></li><li class='uGroup' tindex='1'><label style='float:left;width:140px;margin-right: 0px;cursor:pointer;' name='gNameSpan' title='"+_("Shopping")+"'><span style='margin-left: 10px;'>" + _("Shopping") + "</span></label><label><input type='checkbox' name='enable'>" + _("Enable") + "</label></li><li class='uGroup' tindex='2'><label name='gNameSpan' title='"+_("Group Buying")+"' style='float:left;width:140px;margin-right: 0px;cursor:pointer;'><span style='margin-left: 10px;'>" + _("Group Buying") + "</span></label><label><input type='checkbox' name='enable'>" + _("Enable") + "</label></li><li class='uGroup' tindex='3'><label name='gNameSpan' title='"+_("Video")+"' style='float:left;width:140px;margin-right: 0px;cursor:pointer;'><span  style='margin-left: 10px;'>" + _("Video") + "</span></label><label><input type='checkbox' name='enable'>" + _("Enable") + "</label></li><li class='uGroup' tindex='4'><label name='gNameSpan' title='"+_("Chat and Email")+"' style='float:left;width:140px;margin-right: 0px;cursor:pointer;'><span style='margin-left: 10px;'>" + _("Chat and Email") + "</span></label><label><input type='checkbox' name='enable'>" + _("Enable") + "</label></li><li class='uGroup' tindex='5'><label name='gNameSpan' title='"+_("Recruitment")+"' style='float:left;width:140px;margin-right: 0px;cursor:pointer;'><span style='margin-left: 10px;'>" + _("Recruitment") + "</span></label><label><input type='checkbox' name='enable'>" + _("Enable") + "</label></li>";
+line:21
+character:1377
+a:_
+b:undefined
+c:undefined
+d:undefined
+reason:'_' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:    var str = "<li class='a3'><span style='margin-left: 10px;'>" + _("Website Group") + "</span><label>" + _("Operation") + "</label></li><li class='uGroup' tindex='1'><label style='float:left;width:140px;margin-right: 0px;cursor:pointer;' name='gNameSpan' title='"+_("Shopping")+"'><span style='margin-left: 10px;'>" + _("Shopping") + "</span></label><label><input type='checkbox' name='enable'>" + _("Enable") + "</label></li><li class='uGroup' tindex='2'><label name='gNameSpan' title='"+_("Group Buying")+"' style='float:left;width:140px;margin-right: 0px;cursor:pointer;'><span style='margin-left: 10px;'>" + _("Group Buying") + "</span></label><label><input type='checkbox' name='enable'>" + _("Enable") + "</label></li><li class='uGroup' tindex='3'><label name='gNameSpan' title='"+_("Video")+"' style='float:left;width:140px;margin-right: 0px;cursor:pointer;'><span  style='margin-left: 10px;'>" + _("Video") + "</span></label><label><input type='checkbox' name='enable'>" + _("Enable") + "</label></li><li class='uGroup' tindex='4'><label name='gNameSpan' title='"+_("Chat and Email")+"' style='float:left;width:140px;margin-right: 0px;cursor:pointer;'><span style='margin-left: 10px;'>" + _("Chat and Email") + "</span></label><label><input type='checkbox' name='enable'>" + _("Enable") + "</label></li><li class='uGroup' tindex='5'><label name='gNameSpan' title='"+_("Recruitment")+"' style='float:left;width:140px;margin-right: 0px;cursor:pointer;'><span style='margin-left: 10px;'>" + _("Recruitment") + "</span></label><label><input type='checkbox' name='enable'>" + _("Enable") + "</label></li>";
+line:21
+character:1499
+a:_
+b:undefined
+c:undefined
+d:undefined
+reason:'_' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:    var str = "<li class='a3'><span style='margin-left: 10px;'>" + _("Website Group") + "</span><label>" + _("Operation") + "</label></li><li class='uGroup' tindex='1'><label style='float:left;width:140px;margin-right: 0px;cursor:pointer;' name='gNameSpan' title='"+_("Shopping")+"'><span style='margin-left: 10px;'>" + _("Shopping") + "</span></label><label><input type='checkbox' name='enable'>" + _("Enable") + "</label></li><li class='uGroup' tindex='2'><label name='gNameSpan' title='"+_("Group Buying")+"' style='float:left;width:140px;margin-right: 0px;cursor:pointer;'><span style='margin-left: 10px;'>" + _("Group Buying") + "</span></label><label><input type='checkbox' name='enable'>" + _("Enable") + "</label></li><li class='uGroup' tindex='3'><label name='gNameSpan' title='"+_("Video")+"' style='float:left;width:140px;margin-right: 0px;cursor:pointer;'><span  style='margin-left: 10px;'>" + _("Video") + "</span></label><label><input type='checkbox' name='enable'>" + _("Enable") + "</label></li><li class='uGroup' tindex='4'><label name='gNameSpan' title='"+_("Chat and Email")+"' style='float:left;width:140px;margin-right: 0px;cursor:pointer;'><span style='margin-left: 10px;'>" + _("Chat and Email") + "</span></label><label><input type='checkbox' name='enable'>" + _("Enable") + "</label></li><li class='uGroup' tindex='5'><label name='gNameSpan' title='"+_("Recruitment")+"' style='float:left;width:140px;margin-right: 0px;cursor:pointer;'><span style='margin-left: 10px;'>" + _("Recruitment") + "</span></label><label><input type='checkbox' name='enable'>" + _("Enable") + "</label></li>";
+line:21
+character:1582
+a:_
+b:undefined
+c:undefined
+d:undefined
+reason:'_' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:    $.getJSON('./goform/getUrlGroupMenu?' + Math.random(), function(res) {
+line:23
+character:5
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:Move 'var' declarations to the top of the function.
+code:move_var
+evidence:        for (var x in data) {
+line:29
+character:14
+a:var
+b:undefined
+c:undefined
+d:undefined
+reason:Move 'var' declarations to the top of the function.
+reason:Stopping. (6% scanned).
+line:29
+character:14

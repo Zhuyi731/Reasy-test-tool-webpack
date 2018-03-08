@@ -1,0 +1,553 @@
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:var maxSsidNum = +top.CONFIG_2_4G_MAX_SSID_NUMBER,
+line:1
+character:19
+a:top
+b:undefined
+c:undefined
+d:undefined
+reason:'top' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:	maxSsidNum_5g = +top.CONFIG_5G_MAX_SSID_NUMBER,
+line:2
+character:19
+a:top
+b:undefined
+c:undefined
+d:undefined
+reason:'top' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:	maxClientNum = +top.CONFIG_MAX_CLIENT;
+line:3
+character:18
+a:top
+b:undefined
+c:undefined
+d:undefined
+reason:'top' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:	$("#head").html(tbl_head(num));
+line:6
+character:2
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:	$("#head").html(tbl_head(num));
+line:6
+character:18
+a:tbl_head
+b:undefined
+c:undefined
+d:undefined
+reason:'tbl_head' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:	$("#tail").html(tbl_tail(name));
+line:7
+character:2
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:	$("#tail").html(tbl_tail(name));
+line:7
+character:18
+a:tbl_tail
+b:undefined
+c:undefined
+d:undefined
+reason:'tbl_tail' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:		$ele = $("[name=" + i + "]");
+line:15
+character:10
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:					$ele.val(decodeSSID(data[i]));
+line:20
+character:15
+a:decodeSSID
+b:undefined
+c:undefined
+d:undefined
+reason:'decodeSSID' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:						$("[name=" + i + "][value=" + data[i] + "]")[0].checked = true;
+line:25
+character:7
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:Unused '{a}'.
+code:unused_a
+evidence:	var d = data,
+line:11
+character:6
+a:d
+b:undefined
+c:undefined
+d:undefined
+reason:Unused 'd'.
+id:(error)
+raw:['{a}'] is better written in dot notation.
+code:subscript
+evidence:	var idx = parseInt(document.forms[0].elements["secType"].value),
+line:46
+character:48
+a:secType
+b:undefined
+c:undefined
+d:undefined
+reason:['secType'] is better written in dot notation.
+id:(error)
+raw:Missing radix parameter.
+code:radix
+evidence:	var idx = parseInt(document.forms[0].elements["secType"].value),
+line:46
+character:12
+a:parseInt
+b:undefined
+c:undefined
+d:undefined
+reason:Missing radix parameter.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:	$("#wepAuth").addClass("none");
+line:50
+character:2
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:		$("#div_wep,#div_wpa,#div_802").addClass("none");
+line:52
+character:3
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:		$("#wepAuth").removeClass("none");
+line:54
+character:3
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:			$("#div_wep").removeClass("none");
+line:56
+character:4
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:			$("#div_wpa,#div_802").addClass("none");
+line:57
+character:4
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:			$("#div_802").removeClass("none");
+line:59
+character:4
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:			$("#div_wpa,#div_wep").addClass("none");
+line:60
+character:4
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:		$("#div_wpa").removeClass("none");
+line:63
+character:3
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:		$("#div_wep,#div_802").addClass("none");
+line:64
+character:3
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:			f.keyPeriod.value = wpa_psk_key_time;
+line:66
+character:4
+a:f
+b:undefined
+c:undefined
+d:undefined
+reason:'f' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:			f.keyPeriod.value = wpa_psk_key_time;
+line:66
+character:24
+a:wpa_psk_key_time
+b:undefined
+c:undefined
+d:undefined
+reason:'wpa_psk_key_time' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:			f.cipher[2].disabled = true;
+line:69
+character:4
+a:f
+b:undefined
+c:undefined
+d:undefined
+reason:'f' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:			if (f.cipher[2].checked) {
+line:70
+character:8
+a:f
+b:undefined
+c:undefined
+d:undefined
+reason:'f' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:				f.cipher[2].checked = false;
+line:71
+character:5
+a:f
+b:undefined
+c:undefined
+d:undefined
+reason:'f' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:				f.cipher[0].checked = true;
+line:72
+character:5
+a:f
+b:undefined
+c:undefined
+d:undefined
+reason:'f' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:			f.cipher[2].disabled = false;
+line:75
+character:4
+a:f
+b:undefined
+c:undefined
+d:undefined
+reason:'f' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:		$("#div_802,#div_wpa").removeClass("none");
+line:78
+character:3
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:		$("#div_wep,#wpaPasswd").addClass("none");
+line:79
+character:3
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:			f.keyPeriod.value = wpa_key_time;
+line:81
+character:4
+a:f
+b:undefined
+c:undefined
+d:undefined
+reason:'f' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:			f.keyPeriod.value = wpa_key_time;
+line:81
+character:24
+a:wpa_key_time
+b:undefined
+c:undefined
+d:undefined
+reason:'wpa_key_time' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:	$("select[name=wepSecOpt]").change(function () {
+line:84
+character:2
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:			$("#div_wep").addClass("none");
+line:86
+character:4
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:			$("#div_802").removeClass("none");
+line:87
+character:4
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:			$("#div_wep").removeClass("none");
+line:89
+character:4
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:			$("#div_802").addClass("none");
+line:90
+character:4
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:		sid = f.ssid.value,
+line:97
+character:9
+a:f
+b:undefined
+c:undefined
+d:undefined
+reason:'f' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:		alert(_("Please enter an SSID."));
+line:100
+character:3
+a:alert
+b:undefined
+c:undefined
+d:undefined
+reason:'alert' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:		alert(_("Please enter an SSID."));
+line:100
+character:9
+a:_
+b:undefined
+c:undefined
+d:undefined
+reason:'_' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:		alert(_("Only a maximum of 32 characters are allowed in the SSID."));
+line:108
+character:3
+a:alert
+b:undefined
+c:undefined
+d:undefined
+reason:'alert' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:		alert(_("Only a maximum of 32 characters are allowed in the SSID."));
+line:108
+character:9
+a:_
+b:undefined
+c:undefined
+d:undefined
+reason:'_' was used before it was defined.
+id:(error)
+raw:Unused '{a}'.
+code:unused_a
+evidence:	var re = /^[^\\]+$/, //[^\<\>,;"%&]
+line:96
+character:6
+a:re
+b:undefined
+c:undefined
+d:undefined
+reason:Unused 're'.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:	var securitymode = f.secType.value,
+line:115
+character:21
+a:f
+b:undefined
+c:undefined
+d:undefined
+reason:'f' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:	if (securitymode == "1" && f.wepSecOpt.value != "802.1x") {
+line:117
+character:29
+a:f
+b:undefined
+c:undefined
+d:undefined
+reason:'f' was used before it was defined.
+id:(error)
+raw:Combine this with the previous 'var' statement.
+code:combine_var
+evidence:		var defaultid = f.wep_default_key.value,
+line:118
+character:7
+a:defaultid
+b:undefined
+c:undefined
+d:undefined
+reason:Combine this with the previous 'var' statement.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:		var defaultid = f.wep_default_key.value,
+line:118
+character:19
+a:f
+b:undefined
+c:undefined
+d:undefined
+reason:'f' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:		keyvalue = f["wep" + defaultid].value;
+line:120
+character:14
+a:f
+b:undefined
+c:undefined
+d:undefined
+reason:'f' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:			alert(_('Please enter key %s.', [defaultid]));
+line:122
+character:4
+a:alert
+b:undefined
+c:undefined
+d:undefined
+reason:'alert' was used before it was defined.
+reason:Too many errors. (35% scanned).
+line:122
+character:4

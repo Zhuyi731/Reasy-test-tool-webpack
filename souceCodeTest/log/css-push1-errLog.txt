@@ -1,0 +1,132 @@
+type:warning
+line:126
+message:Duplicate property 'width' found.
+evidence:    width: 100%;
+rule:{
+id:duplicate-properties
+name:Disallow duplicate properties
+desc:Duplicate properties must appear one after the other.
+browsers:All
+}
+
+type:warning
+line:196
+message:Values of 0 shouldn't have units specified.
+evidence:    padding: 0px;
+rule:{
+id:zero-units
+name:Disallow units for 0 values
+desc:You don't need to specify units when a value is 0.
+browsers:All
+}
+
+type:warning
+line:229
+message:Values of 0 shouldn't have units specified.
+evidence:        padding-top: 0px;
+rule:{
+id:zero-units
+name:Disallow units for 0 values
+desc:You don't need to specify units when a value is 0.
+browsers:All
+}
+
+type:warning
+line:273
+message:Values of 0 shouldn't have units specified.
+evidence:        margin-left: 0px;
+rule:{
+id:zero-units
+name:Disallow units for 0 values
+desc:You don't need to specify units when a value is 0.
+browsers:All
+}
+
+type:warning
+line:319
+message:Fallback color (hex or RGB) should precede RGBA color.
+evidence:    color: rgba(0, 0, 0, 0);
+rule:{
+id:fallback-colors
+name:Require fallback colors
+desc:For older browsers that don't support RGBA, HSL, or HSLA, provide a fallback color.
+browsers:IE6,IE7,IE8
+}
+
+type:warning
+line:324
+message:float can't be used with display: inline-block.
+evidence:    float: left;
+rule:{
+id:display-property-grouping
+name:Require properties appropriate for display
+desc:Certain properties shouldn't be used with certain display property values.
+browsers:All
+}
+
+type:warning
+line:328
+message:Values of 0 shouldn't have units specified.
+evidence:    background-position: 0px -442px;
+rule:{
+id:zero-units
+name:Disallow units for 0 values
+desc:You don't need to specify units when a value is 0.
+browsers:All
+}
+
+type:warning
+line:332
+message:Values of 0 shouldn't have units specified.
+evidence:    background-position: 0px -87px;
+rule:{
+id:zero-units
+name:Disallow units for 0 values
+desc:You don't need to specify units when a value is 0.
+browsers:All
+}
+
+type:warning
+line:336
+message:Values of 0 shouldn't have units specified.
+evidence:    background-position: 0px -263px;
+rule:{
+id:zero-units
+name:Disallow units for 0 values
+desc:You don't need to specify units when a value is 0.
+browsers:All
+}
+
+type:warning
+line:340
+message:Values of 0 shouldn't have units specified.
+evidence:    background-position: 0px -353px;
+rule:{
+id:zero-units
+name:Disallow units for 0 values
+desc:You don't need to specify units when a value is 0.
+browsers:All
+}
+
+type:warning
+line:344
+message:Values of 0 shouldn't have units specified.
+evidence:    background-position: 0px 0px;
+rule:{
+id:zero-units
+name:Disallow units for 0 values
+desc:You don't need to specify units when a value is 0.
+browsers:All
+}
+
+type:warning
+line:344
+message:Values of 0 shouldn't have units specified.
+evidence:    background-position: 0px 0px;
+rule:{
+id:zero-units
+name:Disallow units for 0 values
+desc:You don't need to specify units when a value is 0.
+browsers:All
+}
+

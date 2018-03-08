@@ -1,0 +1,553 @@
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:	$("#head").html(tbl_head(26));
+line:2
+character:2
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:	$("#head").html(tbl_head(26));
+line:2
+character:18
+a:tbl_head
+b:undefined
+c:undefined
+d:undefined
+reason:'tbl_head' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:	$("#tail").html(tbl_tail("timeReboot"));
+line:3
+character:2
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:	$("#tail").html(tbl_tail("timeReboot"));
+line:3
+character:18
+a:tbl_tail
+b:undefined
+c:undefined
+d:undefined
+reason:'tbl_tail' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:	$("#sched_type").on("change", changeSchedType);
+line:7
+character:2
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:	$("#sched_type").on("change", changeSchedType);
+line:7
+character:32
+a:changeSchedType
+b:undefined
+c:undefined
+d:undefined
+reason:'changeSchedType' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:	$("#everyday").on("click", clickEveryday);
+line:8
+character:2
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:	$("#everyday").on("click", clickEveryday);
+line:8
+character:29
+a:clickEveryday
+b:undefined
+c:undefined
+d:undefined
+reason:'clickEveryday' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:	$.GetSetData.getJson("goform/getManualReboot", initValue);
+line:13
+character:2
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:	$.GetSetData.getJson("goform/getManualReboot", initValue);
+line:13
+character:49
+a:initValue
+b:undefined
+c:undefined
+d:undefined
+reason:'initValue' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:	document.getElementById("tail").innerHTML = tbl_tail("timeReboot");
+line:20
+character:46
+a:tbl_tail
+b:undefined
+c:undefined
+d:undefined
+reason:'tbl_tail' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:	$('#en')[0].checked = data.manualRebootEn == 'false' ? false : true;
+line:22
+character:2
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:	$('#time').val(data.rebootTime);
+line:23
+character:2
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:	$("#interval_time").val(data.intervalTime);
+line:24
+character:2
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:	$("#sched_type").val(data.rebootType);
+line:25
+character:2
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:		$("#everyday")[0].checked = true;
+line:29
+character:3
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:		$("#everyday")[0].checked = false;
+line:31
+character:3
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:	for (i = 1; i < row.length; i++) {
+line:35
+character:7
+a:i
+b:undefined
+c:undefined
+d:undefined
+reason:'i' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:	for (i = 1; i < row.length; i++) {
+line:35
+character:14
+a:i
+b:undefined
+c:undefined
+d:undefined
+reason:'i' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:	for (i = 1; i < row.length; i++) {
+line:35
+character:30
+a:i
+b:undefined
+c:undefined
+d:undefined
+reason:'i' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:		$('#week' + i).attr('checked', !!(+row[i]));
+line:36
+character:3
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:		$('#week' + i).attr('checked', !!(+row[i]));
+line:36
+character:15
+a:i
+b:undefined
+c:undefined
+d:undefined
+reason:'i' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:		$('#week' + i).attr('checked', !!(+row[i]));
+line:36
+character:42
+a:i
+b:undefined
+c:undefined
+d:undefined
+reason:'i' was used before it was defined.
+id:(error)
+raw:Unexpected '{a}'.
+code:unexpected_a
+evidence:		$('#week' + i).attr('checked', !!(+row[i]));
+line:36
+character:34
+a:!!
+b:undefined
+c:undefined
+d:undefined
+reason:Unexpected '!!'.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:	clickEveryday();
+line:39
+character:2
+a:clickEveryday
+b:undefined
+c:undefined
+d:undefined
+reason:'clickEveryday' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:	changeSchedType();
+line:40
+character:2
+a:changeSchedType
+b:undefined
+c:undefined
+d:undefined
+reason:'changeSchedType' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:	var doc = $("#everyday")[0];
+line:46
+character:12
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:		$("[id^='week']").attr("disabled", true);
+line:48
+character:3
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:		$("[id^='week']").attr("checked", true);
+line:49
+character:3
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:		$("[id^='week']").removeAttr("disabled");
+line:51
+character:3
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:	if ($("#sched_type").val() == "timing") {
+line:57
+character:6
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:		$("#tr-1").addClass("none");
+line:58
+character:3
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:		$("#tr-2").removeClass("none");
+line:59
+character:3
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:		$("#tr-3").removeClass("none");
+line:60
+character:3
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:		$("#tr-1").removeClass("none");
+line:62
+character:3
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:		$("#tr-2").addClass("none");
+line:63
+character:3
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:		$("#tr-3").addClass("none");
+line:64
+character:3
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:	var value = $("#" + id).val();
+line:69
+character:14
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:	$("#" + id).val(isNaN(parseInt(value, 10)) ? '' : parseInt(value, 10));
+line:70
+character:2
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:		s_time = $('#time').val(),
+line:75
+character:12
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:		type = $("#sched_type").val() == 'interval' ? '0' : '1';
+line:76
+character:10
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:		alert(_("You are not allowed to make the change. Please log in as an administrator and try again."));
+line:78
+character:3
+a:alert
+b:undefined
+c:undefined
+d:undefined
+reason:'alert' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:		alert(_("You are not allowed to make the change. Please log in as an administrator and try again."));
+line:78
+character:9
+a:_
+b:undefined
+c:undefined
+d:undefined
+reason:'_' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:	if (type == '0' && (!(/^[0-9]+$/g.test(+$("#interval_time").val())) || (+$("#interval_time").val()) < 10 || (+$("#interval_time").val()) > 7200)) {
+line:84
+character:42
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:	if (type == '0' && (!(/^[0-9]+$/g.test(+$("#interval_time").val())) || (+$("#interval_time").val()) < 10 || (+$("#interval_time").val()) > 7200)) {
+line:84
+character:75
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:	if (type == '0' && (!(/^[0-9]+$/g.test(+$("#interval_time").val())) || (+$("#interval_time").val()) < 10 || (+$("#interval_time").val()) > 7200)) {
+line:84
+character:112
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:		alert(_("The interval must range from 10 through 7200 minutes."));
+line:85
+character:3
+a:alert
+b:undefined
+c:undefined
+d:undefined
+reason:'alert' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:		alert(_("The interval must range from 10 through 7200 minutes."));
+line:85
+character:9
+a:_
+b:undefined
+c:undefined
+d:undefined
+reason:'_' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:		alert(_("Please specify a correct time to reboot."));
+line:90
+character:3
+a:alert
+b:undefined
+c:undefined
+d:undefined
+reason:'alert' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:		alert(_("Please specify a correct time to reboot."));
+line:90
+character:9
+a:_
+b:undefined
+c:undefined
+d:undefined
+reason:'_' was used before it was defined.
+reason:Too many errors. (72% scanned).
+line:90
+character:9

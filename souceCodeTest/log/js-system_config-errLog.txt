@@ -1,0 +1,278 @@
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:$(function () {
+line:1
+character:1
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:	$("#head").html(tbl_head(13));
+line:2
+character:2
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:	$("#head").html(tbl_head(13));
+line:2
+character:18
+a:tbl_head
+b:undefined
+c:undefined
+d:undefined
+reason:'tbl_head' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:	$("#backup").on('click', DownLoadCfg);
+line:3
+character:2
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:	$("#backup").on('click', DownLoadCfg);
+line:3
+character:27
+a:DownLoadCfg
+b:undefined
+c:undefined
+d:undefined
+reason:'DownLoadCfg' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:	$("#restoreTo").on('click', UpLoadCfg);
+line:4
+character:2
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:	$("#restoreTo").on('click', UpLoadCfg);
+line:4
+character:30
+a:UpLoadCfg
+b:undefined
+c:undefined
+d:undefined
+reason:'UpLoadCfg' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:	$("#restore").on("click", function () {
+line:5
+character:2
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:            alert(_("You are not allowed to make the change. Please log in as an administrator and try again."));
+line:7
+character:13
+a:alert
+b:undefined
+c:undefined
+d:undefined
+reason:'alert' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:            alert(_("You are not allowed to make the change. Please log in as an administrator and try again."));
+line:7
+character:19
+a:_
+b:undefined
+c:undefined
+d:undefined
+reason:'_' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:		if (window.confirm(_("This device will restart automatically. The IP address will change to 192.168.0.254.") +
+line:10
+character:22
+a:_
+b:undefined
+c:undefined
+d:undefined
+reason:'_' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:				_("The user name and password will change to admin. If this page is not refreshed automatically after this device restarts, update the network settings of your computer and try login again."))) {
+line:11
+character:5
+a:_
+b:undefined
+c:undefined
+d:undefined
+reason:'_' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:			$.get("/goform/SysToolRestoreSet?r="+Math.random(), function () {});
+line:12
+character:4
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:Empty block.
+code:empty_block
+evidence:			$.get("/goform/SysToolRestoreSet?r="+Math.random(), function () {});
+line:12
+character:68
+a:{
+b:undefined
+c:undefined
+d:undefined
+reason:Empty block.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:			alert(_("You are not allowed to make the change. Please log in as an administrator and try again."));
+line:23
+character:4
+a:alert
+b:undefined
+c:undefined
+d:undefined
+reason:'alert' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:			alert(_("You are not allowed to make the change. Please log in as an administrator and try again."));
+line:23
+character:10
+a:_
+b:undefined
+c:undefined
+d:undefined
+reason:'_' was used before it was defined.
+id:(error)
+raw:Combine this with the previous 'var' statement.
+code:combine_var
+evidence:		var arr = tmp.split(".");
+line:27
+character:7
+a:arr
+b:undefined
+c:undefined
+d:undefined
+reason:Combine this with the previous 'var' statement.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:			alert(_("Please select a backup file."));
+line:30
+character:4
+a:alert
+b:undefined
+c:undefined
+d:undefined
+reason:'alert' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:			alert(_("Please select a backup file."));
+line:30
+character:10
+a:_
+b:undefined
+c:undefined
+d:undefined
+reason:'_' was used before it was defined.
+id:(error)
+raw:Unnecessary 'else' after disruption.
+code:unnecessary_else
+evidence:		} else if (arr[arr.length - 1] != "cfg") {
+line:32
+character:5
+a:else
+b:undefined
+c:undefined
+d:undefined
+reason:Unnecessary 'else' after disruption.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:			alert(_("The extension of the configuration file to be imported must be .cfg."));
+line:33
+character:4
+a:alert
+b:undefined
+c:undefined
+d:undefined
+reason:'alert' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:			alert(_("The extension of the configuration file to be imported must be .cfg."));
+line:33
+character:10
+a:_
+b:undefined
+c:undefined
+d:undefined
+reason:'_' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:		if (confirm(_("This device will restart after the configuration file is imported.")))
+line:36
+character:7
+a:confirm
+b:undefined
+c:undefined
+d:undefined
+reason:'confirm' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:		if (confirm(_("This device will restart after the configuration file is imported.")))
+line:36
+character:15
+a:_
+b:undefined
+c:undefined
+d:undefined
+reason:'_' was used before it was defined.
+id:(error)
+raw:Expected '{a}' and instead saw '{b}'.
+code:expected_a_b
+evidence:			document.frmSetup.submit();
+line:37
+character:4
+a:{
+b:document
+c:undefined
+d:undefined
+reason:Expected '{' and instead saw 'document'.
+reason:Stopping. (47% scanned).
+line:37
+character:4

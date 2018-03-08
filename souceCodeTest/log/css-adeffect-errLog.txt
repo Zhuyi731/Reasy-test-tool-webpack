@@ -1,0 +1,44 @@
+type:warning
+line:40
+message:Background image '../images/icon-login.png' was used multiple times, first declared at line 34, col 5.
+evidence:    background: url(../images/icon-login.png) no-repeat scroll 0 -18px;
+rule:{
+id:duplicate-background-images
+name:Disallow duplicate background images
+desc:Every background-image should be unique. Use a common class for e.g. sprites.
+browsers:All
+}
+
+type:warning
+line:61
+message:Values of 0 shouldn't have units specified.
+evidence:    margin-bottom: 0px;
+rule:{
+id:zero-units
+name:Disallow units for 0 values
+desc:You don't need to specify units when a value is 0.
+browsers:All
+}
+
+type:warning
+line:195
+message:Missing vendor-prefixed CSS gradients for Firefox 3.6+.
+evidence:.nav-justified > li > a {
+rule:{
+id:gradients
+name:Require all gradient definitions
+desc:When using a vendor-prefixed gradient, make sure to use them all.
+browsers:All
+}
+
+type:warning
+line:212
+message:Expected (<filter-function-list> | none) but found 'progid: DXImageTransform.Microsoft.gradient( startColorstr='#f5f5f5' endColorstr='#e5e5e5' GradientType=0)'.
+evidence:    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#f5f5f5', endColorstr='#e5e5e5', GradientType=0);
+rule:{
+id:known-properties
+name:Require use of known properties
+desc:Properties should be known (listed in CSS3 specification) or be a vendor-prefixed property.
+browsers:All
+}
+

@@ -1,0 +1,132 @@
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:	$("#head").html(tbl_head(25));
+line:4
+character:2
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:	$("#head").html(tbl_head(25));
+line:4
+character:18
+a:tbl_head
+b:undefined
+c:undefined
+d:undefined
+reason:'tbl_head' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:	$("input[name=ledStatus]").on("click", clickLed);
+line:8
+character:2
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:	$("input[name=ledStatus]").on("click", clickLed);
+line:8
+character:41
+a:clickLed
+b:undefined
+c:undefined
+d:undefined
+reason:'clickLed' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:	$.GetSetData.getJson("goform/getLedInfo", initValue);
+line:12
+character:2
+a:$
+b:undefined
+c:undefined
+d:undefined
+reason:'$' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:	$.GetSetData.getJson("goform/getLedInfo", initValue);
+line:12
+character:44
+a:initValue
+b:undefined
+c:undefined
+d:undefined
+reason:'initValue' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:		document.frmSetup.ledStatus.value = _("Disable All LEDs");
+line:19
+character:39
+a:_
+b:undefined
+c:undefined
+d:undefined
+reason:'_' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:		alert(_("You are not allowed to make the change. Please log in as an administrator and try again."));
+line:25
+character:3
+a:alert
+b:undefined
+c:undefined
+d:undefined
+reason:'alert' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:		alert(_("You are not allowed to make the change. Please log in as an administrator and try again."));
+line:25
+character:9
+a:_
+b:undefined
+c:undefined
+d:undefined
+reason:'_' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:	if (document.frmSetup.ledStatus.value == _("Disable All LEDs")) {
+line:28
+character:43
+a:_
+b:undefined
+c:undefined
+d:undefined
+reason:'_' was used before it was defined.
+id:(error)
+raw:'{a}' was used before it was defined.
+code:used_before_a
+evidence:	submitData("goform/setLedInfo");
+line:33
+character:2
+a:submitData
+b:undefined
+c:undefined
+d:undefined
+reason:'submitData' was used before it was defined.
+id:(error)
+raw:Expected '{a}' and instead saw '{b}'.
+code:expected_a_b
+evidence:}
+line:44
+character:2
+a:;
+b:(end)
+c:undefined
+d:undefined
+reason:Expected ';' and instead saw '(end)'.

@@ -1,0 +1,33 @@
+type:warning
+line:2
+message:Expected (<filter-function-list> | none) but found 'alpha(opacity=50)'.
+evidence:#gbx_overlay { width:100%; height:100%; position:fixed; left:0; top:0; margin:0; z-index:9; background: #000; opacity:0.5; filter: alpha(opacity=50); -moz-opacity: 0.5; }
+rule:{
+id:known-properties
+name:Require use of known properties
+desc:Properties should be known (listed in CSS3 specification) or be a vendor-prefixed property.
+browsers:All
+}
+
+type:error
+line:3
+message:Expected RPAREN at line 3, col 128.
+evidence:* html #gbx_overlay { _height:150%; position:absolute; /*IE does not work with position fixed*/  top:expression((0 + (ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop)) + 'px');
+rule:{
+id:errors
+name:Parsing Errors
+desc:This rule looks for recoverable syntax errors.
+browsers:All
+}
+
+type:error
+line:4
+message:Expected RPAREN at line 4, col 36.
+evidence: right: expression((0 + (ignoreMe2 = document.documentElement.scrollLeft ? document.documentElement.scrollLeft : document.body.scrollLeft)) + 'px');
+rule:{
+id:errors
+name:Parsing Errors
+desc:This rule looks for recoverable syntax errors.
+browsers:All
+}
+
