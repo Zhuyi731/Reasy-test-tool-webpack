@@ -1,14 +1,16 @@
 {
-  "name": "Rtest",
+  "name": "reasy-htmlcss-hint-webpack",
   "version": "1.0.0",
-  "description": "a test tool for self test",
+  "description": "Check the princepal of html and css files",
   "main": "index.js",
   "dependencies": {
     "csslint": "^1.0.5",
     "htmlhint": "^0.9.13",
     "readline": "^1.3.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  },
   "scripts": {
     "test": "node index.js"
   },

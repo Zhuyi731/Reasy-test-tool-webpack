@@ -12,16 +12,36 @@ var htmlCheck = require("./htmlTest");
 
 var cssCheck = require("./cssTest");
 
-var checkOptions = require("./../common/checkConfig");
+var htmlCheckOptions,
+    cssCheckOptions,
+    jsCheckOptions,
+    checkOptions;
 
-var htmlCheckOptions = checkOptions.htmlCheckOptions;
-
-var cssCheckOptions = checkOptions.cssCheckOptions;
-
-var jsCheckOptions = checkOptions.jsCheckOptions;
+var err = false;
 
 function souceCode(fPath, webpackOptions) {
     var that = this;
+    this.options = webpackOptions;
+    /*
+    *检查是否有自定义配置项
+    */
+    if (fs.existsSync(webpackOptions.rootPath + "/rSourceTest.config.js")) {
+        console.log("*****Detected configure file,use custom*****");
+        checkOptions = require(webpackOptions.rootPath + "/rSourceTest.config");
+    } else {
+        console.warn("*****Didn't find configure file,use default*****");
+        checkOptions = require("./../common/checkConfig");
+    }
+
+    if (!checkOptions.htmlCheckOptions || !checkOptions.cssCheckOptions) {
+        throw new Error("/*****缺少HTML配置项htmlCheckOptions或者CSS检查配置项cssCheckOptions*****/");
+        this.test = () => { returnn; };
+    }
+
+    htmlCheckOptions = checkOptions.htmlCheckOptions;
+    cssCheckOptions = checkOptions.cssCheckOptions;
+    //jsCheckOptions = checkOptions.jsCheckOptions;
+
     this.htmlList = new Array();
     this.cssList = new Array();
     this.jsList = new Array();
@@ -35,35 +55,39 @@ function souceCode(fPath, webpackOptions) {
         //等待获取完所有文件后再测试文件
         setTimeout(function () {
             // syncTask是为了让这些检查能够同步的执行，而不是异步的
-
-            //  检查html文件源码规范
-            syncTask.push({
-                "beforeRun": function () { console.log("/******开始html文件检查******/"); },//运行之前的函数
-                "task": htmlCheck,//任务函数  
-                "args": [that.htmlList, htmlCheckOptions],//任务函数の参数
-                "callback": function (errNum) {//回调
-                    console.log("共发现了" + errNum + "个错误");
-                },
-                "afterRun": function () {
-                    console.log("/******html文件检查结束******/");
-                    console.log("");
+            if (that.options.htmlEn) {
+                //  检查html文件源码规范
+                syncTask.push({
+                    "beforeRun": function () { console.log("/******开始html文件检查******/"); },//运行之前的函数
+                    "task": htmlCheck,//任务函数  
+                    "args": [that.htmlList, htmlCheckOptions],//任务函数の参数
+                    "callback": function (errNum) {//回调
+                        console.log("共发现了" + errNum + "个错误");
+                        if (errNum > 0) {
+                            return new Error("发现HTML文件错误，请检查后再编译");
+                        }
+                    },
+                    "afterRun": function () {
+                        console.log("/******html文件检查结束******/");
+                        console.log("");
+                    }
                 }
+                );
             }
-            );
-
-            //检查css文件源码规范
-            syncTask.push({
-                "beforeRun": function () { console.log("/******开始css文件检查******/"); },//运行之前的函数
-                "task": cssCheck,//任务函数  
-                "args": [that.cssList, cssCheckOptions],//参数
-                "callback": function (errNum) {//回调
-                    console.log("共发现了" + errNum + "个错误");
-                },
-                "afterRun": function () {
-                    console.log("/******css文件检查结束******/");
-                }
-            });
-
+            if (that.options.cssEn) {
+                //检查css文件源码规范
+                syncTask.push({
+                    "beforeRun": function () { console.log("/******开始css文件检查******/"); },//运行之前的函数
+                    "task": cssCheck,//任务函数  
+                    "args": [that.cssList, cssCheckOptions],//参数
+                    "callback": function (errNum) {//回调
+                        console.log("共发现了" + errNum + "个错误");
+                    },
+                    "afterRun": function () {
+                        console.log("/******css文件检查结束******/");
+                    }
+                });
+            }
             // //检查js文件源码规范
             // syncTask.push({
             //     "beforeRun":function(){console.log("/******开始js文件检查******/")},//运行之前的函数
@@ -77,7 +101,6 @@ function souceCode(fPath, webpackOptions) {
             //     }
             // })
             syncTask.run();
-
         }, 3000);
     };
 
