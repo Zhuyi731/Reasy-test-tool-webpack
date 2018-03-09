@@ -128,6 +128,12 @@ function souceCode(fPath, webpackOptions) {
                                     //如果是不需要做检测的库则不作处理
                                 } else {
                                     //分类归如地址数组中
+                                    //exclude 排除
+                                   
+									if(that.options.exclude && that.options.exclude.test(fileDir)){
+										
+									   return ;
+                                    }
 
                                     if ((/(\.html|\.htm)$/).test(fileDir)) {
                                         //假数据不要

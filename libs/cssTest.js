@@ -25,7 +25,11 @@ var errLogPath = opt.errorLogPath;
  */
 function cssTest(cssList, checkOptions, callback) {
     var cssPath = cssList[0];
-    if(!cssPath) return ;
+     //说明没有检测到css文件
+    if(cssList.length == 0){ 
+        callback.call(this, 0);
+        return ;
+    } 
     var rdl = require('readline').createInterface({
         "input": fs.createReadStream(cssPath) // 建立 按行读取 的文件流
     });

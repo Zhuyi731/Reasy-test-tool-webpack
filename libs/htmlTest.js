@@ -27,6 +27,10 @@ var errLogPath = opt.errorLogPath;
 function htmlTest(htmlList, checkOptions,callback) {
 
         var htmlPath = htmlList[0];
+		if(htmlList.length == 0){
+            callback.call(this,0);
+            return ;
+        }
         var rdl = require('readline').createInterface({
             "input": fs.createReadStream(htmlPath) // 建立 按行读取 的文件流
         });                                                
